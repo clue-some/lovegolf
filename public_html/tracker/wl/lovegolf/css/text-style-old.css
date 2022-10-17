@@ -1,0 +1,719 @@
+/* default styles */
+p, h1, h2, h3, h4, h5 { 
+	font-family: "trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+p {
+	font-size: 0.8em;
+	color: #000000;
+}
+h1 {
+	font-size: 1.05em;
+	font-weight: bold;
+	color: #000000;
+}
+h2 {
+	font-size: 0.95em;
+	font-weight: bold;
+	color: #333333;
+}
+h3 {
+	font-size: 0.95em;
+	font-weight: bold;
+	color: #06084f;
+}
+h4 {
+	font-size: 0.95em;
+	font-weight: bold;
+	color: #333333;
+}
+h5 {
+	font-size: 0.95em;
+	font-weight: bold;
+	color: #333333;
+}
+/* custom styles */
+.navBarText {
+	font-weight: bold;
+	color: #707070;
+}
+.redText {
+	color: #7f0e0e;
+}
+.smallText {
+	font-size: 0.75em;
+}
+.lostPasswordText {
+	font-size: 0.75em;
+	color: #848484;
+}
+.smlGreyText {
+	color: #6c6c6c;
+	font-size: 0.7em;
+}
+
+.medGreyText {
+
+	color: #6c6c6c;
+
+	font-size: 0.9em;
+
+}
+.lrgBlueText {
+	color: #172fa3;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+.smlGreenText {
+
+	color: #0b951b;
+	
+	font-size: 1.1em;
+
+	font-weight: bold;
+
+}
+
+.trackingBoxTitle h1 {
+	color: #fff;	
+}
+.footerText {
+	color: #404664;
+	font-size: 0.75em;
+}
+.hNormalText {
+	color: #000000;
+	font-size: 0.9em;
+}
+.addScorecardItem p {
+	color: #172fa3;
+}
+.addScorecardItem h2, .addScorecardItem h3, .addScorecardItem h4, .moduleArea h4, .moduleArea h5 {
+	margin-bottom: 5px;
+}
+
+.addScorecardItem h3, .moduleArea h5 {
+	
+	color: #2b9838;
+	font-size: 1.2em;
+		
+}
+
+.addScorecardItem h4 {
+	
+	color: #4559b8;
+		
+}
+.addScorecardItem h2 span, .addScorecardItem h3 span, .addScorecardItem h4 span {
+	font-size: 0.8em;
+	color: #172fa3;
+}
+
+.addScorecardItem h3 span {
+
+	font-size: 0.6em;
+		
+}
+.friendAreaContent h1 {
+	margin-bottom: 5px;
+}
+.friendAreaTerms p {
+	color: #666666;
+	font-size: 0.7em;
+}
+.friendFormArea h1 {
+	color: #fc8200;
+	font-size: 1.9em;
+}
+.feedbackModuleArea h2 {
+	margin-bottom: 7px;
+}
+
+.moduleTitleContent h1 {
+
+	color: #333333;
+	font-size: 0.95em;
+		
+}
+
+.moduleBox h2 {
+	
+	color: #333333;
+	margin-bottom: 5px;
+		
+}
+
+.courseContactArea p {
+
+	color: #b51c1c;
+		
+}
+
+.tabAreaContentOn h1 {
+	color: #000000;
+	font-size: 0.95em;
+	font-weight: bold;	
+}
+.tabAreaContentOff h1 {
+	font-size: 0.8em;
+	font-weight: normal;
+}
+.tabAreaContentOff h1 span, .tabAreaContentOn h1 span {
+	font-size: 0.85em;
+	color: #cc0000;
+}
+.formName h1 {
+	color: #000000;
+	font-size: 0.9em;
+	font-weight: normal;
+}
+.regFormItemNormal p {
+	font-size: 0.8em;
+	color: #4559b8;
+}
+#TB_ajaxContent h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #374b4c;
+	font-size: 1.2em;
+	font-weight: normal;
+	margin-bottom: 7px;
+}.trackingRedText {
+	color: #cc0000;	
+}
+.trackingBlueText {
+	color: #172fa3;	
+}
+.golfNewsHolder h1 {
+	font-size: 0.95em;
+	font-weight: bold;	
+}
+.golfNewsHolder p#date {
+	font-size: 0.6em;
+	color: #808080;
+}
+/* link styles */
+a:link, a:visited {
+	font-weight: bold;
+	color: #707070;
+	text-decoration: none;
+}
+a:hover, a:active {
+	text-decoration: underline;
+}
+.loginArea a:link, .loginArea a:visited {
+	color: #ab0707;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 1px dotted #ab0707;
+}
+.loginArea a:hover, .loginArea a:active {
+	text-decoration: none;
+	border-bottom: 1px solid #ab0707;
+}
+.addCourseContent a:link, .addCourseContent a:visited {
+	color: #7f0e0e;
+	font-weight: bold;
+	text-decoration: none;
+}
+.addCourseContent a:hover, .addCourseContent a:active {
+	text-decoration: underline;
+}
+.addScorecardDetails p a:link, .addScorecardDetails p a:visited {
+	color: #7f0e0e;
+	text-decoration: none;
+}
+.addScorecardDetails p a:hover, .addScorecardDetails p a:active {
+	text-decoration: underline;
+}
+.addScorecardDetails h2 span a:link, .addScorecardDetails h2 span a:visited {
+	color: #7f0e0e;
+	text-decoration: none;
+}
+.addScorecardDetails h2 span a:hover, .addScorecardDetails h2 span a:active {
+	text-decoration: underline;
+}
+
+.addScorecardDetails h3 span a:link, .addScorecardDetails h3 span a:visited {
+
+	color: #7f0e0e;
+
+	text-decoration: none;
+
+}
+
+.addScorecardDetails h3 span a:hover, .addScorecardDetails h3 span a:active {
+
+	text-decoration: underline;
+
+}
+.regFormValidateContent p a:link, .regFormValidateContent p a:visited {
+	font-size: 0.9em;
+	color: #7f0e0e;
+	text-decoration: none;
+}
+.regFormValidateContent p a:hover, .regFormValidateContent p a:active {
+	text-decoration: underline;
+}
+
+.tabAreaContentOff h1 a:link, .tabAreaContentOff h1 a:visited {
+	color: #000000;
+	text-decoration: none;
+	font-weight: normal;
+}
+.tabAreaContentOff h1 a:hover, .tabAreaContentOff h1 a:active {
+	text-decoration: underline;
+}
+a.blueLink:link, a.blueLink:visited {
+	color: #06084f;
+	text-decoration: none;
+}
+a.blueLink:hover, a.blueLink:active {
+	text-decoration: underline;
+}
+a.lostPasswordLink:link, a.lostPasswordLink:visited {
+	color: #848484;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.lostPasswordLink:hover, a.lostPasswordLink:active {
+	text-decoration: underline;
+	font-weight: bold;
+}
+a.footerLink:link, a.footerLink:visited {
+	color: #404664;
+	text-decoration: none;
+}
+a.footerLink:hover, a.footerLink:active {
+	text-decoration: underline;
+}
+a.smlGreyLink:link, a.smlGreyLink:visited {
+	color: #6c6c6c;
+	text-decoration: none;
+}
+a.smlGreyLink:hover, a.smlGreyLink:active {
+	text-decoration: underline;
+}
+a.blackLink:link, a.blackLink:visited {
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+a.blackLink:hover, a.blackLink:active {
+	text-decoration: underline;
+}
+.courseHelpHolder p a:link, .courseHelpHolder p a:visited {
+	color: #156c95;
+	font-weight: normal;
+	text-decoration: none;
+}
+.courseHelpHolder p a:hover, .courseHelpHolder p a:active {
+	text-decoration: underline;
+}
+.friendAreaContent a:link, .friendAreaContent a:visited {
+	color: #4f5ee8;
+	font-weight: bold;
+	text-decoration: none;
+}
+.friendAreaContent a:hover, .friendAreaContent a:active {
+	text-decoration: underline;
+}
+
+table.scorecard tr.scEntry td p a:link, table.scorecard tr.scEntry td p a:visited {
+
+	color: #2b6398;
+
+	text-decoration: none;
+
+}
+
+table.scorecard tr.scEntry td p a:hover, table.scorecard tr.scEntry td p a:active {
+
+	text-decoration: underline;
+
+}
+
+table.scorecard tr.scAlt td p a:link, table.scorecard tr.scAlt td p a:visited {
+
+	color: #2b6398;
+
+	text-decoration: none;
+
+}
+
+table.scorecard tr.scAlt td p a:hover, table.scorecard tr.scAlt td p a:active {
+
+	text-decoration: underline;
+
+}
+
+.coursePageFloat p a:link, .coursePageFloat p a:visited {
+
+	color: #2b6398;
+
+	text-decoration: none;
+
+}
+
+.coursePageFloat p a:hover, .coursePageFloat p a:active {
+
+	text-decoration: underline;
+
+}
+
+.courseContactArea p a:link, .courseContactArea p a:visited {
+
+	color: #b51c1c;
+	
+	font-weight: normal;
+
+	text-decoration: none;
+
+}
+
+.courseContactArea p a:hover, .courseContactArea p a:active {
+
+	text-decoration: underline;
+
+}
+
+.courseAddressArea p a:link, .courseAddressArea p a:visited {
+
+	color: #b51c1c;
+	
+	font-weight: normal;
+
+	text-decoration: none;
+
+}
+
+.courseAddressArea p a:hover, .courseAddressArea p a:active {
+
+	text-decoration: underline;
+
+}
+
+table.scorecard tr.scAlpha td p a:link, table.scorecard tr.scAlpha td p a:visited {
+
+	color: #ffffff;
+
+	text-decoration: none;
+
+}
+
+table.scorecard tr.scAlpha td p a:hover, table.scorecard tr.scAlpha td p a:active {
+
+	text-decoration: underline;
+
+}
+#hiddenRegion p a:link, #hiddenRegion p a:visited {
+	color: #7f0e0e;
+	text-decoration: none;
+}
+#hiddenRegion p a:hover, #hiddenRegion p a:active {
+	text-decoration: underline;
+}
+#hiddenRegion1 p a:link, #hiddenRegion1 p a:visited {
+	color: #7f0e0e;
+	text-decoration: none;
+}
+#hiddenRegion1 p a:hover, #hiddenRegion1 p a:active {
+	text-decoration: underline;
+}
+#hiddenRegion2 p a:link, #hiddenRegion2 p a:visited {
+	color: #7f0e0e;
+	text-decoration: none;
+}
+#hiddenRegion2 p a:hover, #hiddenRegion2 p a:active {
+	text-decoration: underline;
+}
+#hiddenRegion3 p a:link, #hiddenRegion3 p a:visited {
+	color: #7f0e0e;
+	text-decoration: none;
+}
+#hiddenRegion3 p a:hover, #hiddenRegion3 p a:active {
+	text-decoration: underline;
+}
+
+.trackingChartLinks p a:link, .trackingChartLinks p a:visited {
+
+	color: #0b951b;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-decoration: none;
+
+}
+
+.trackingChartLinks p a:hover, .trackingChartLinks p a:active {
+
+	text-decoration: underline;
+
+}
+
+.golfNewsHolder h1 a:link, .golfNewsHolder h1 a:visited {
+
+	color: #2756cd;
+	text-decoration: none;
+
+}
+
+.golfNewsHolder h1 a:hover, .golfNewsHolder h1 a:active {
+
+	text-decoration: underline;
+
+}
+/* image styles */
+img {
+	border: 0;
+	text-decoration: none;
+}
+.bannerVertical {
+	margin-bottom: 5px;
+}
+.buttonMargin {
+	margin-right: 33px;
+}
+.getFlash {
+	float: left;
+	margin: 0px 10px 25px 0px;
+}
+.tonicBox {
+	float: right;
+	margin: 0px 0px 25px 5px;
+}
+.profilePicMargin {
+	margin-bottom: 5px;
+}
+.registerButton {
+	margin-bottom: 70px;
+}
+
+.toolButton {
+
+	margin-top: 10px;
+
+}
+
+/* form styles */
+form {
+	margin: 0px;
+	padding: 0px;
+}
+.loginForm {
+	margin: 2px 0px 2px 0px;
+	width: 165px;
+	border: 1px solid #9e9e9e;
+	font: normal 0.9em "trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+.loginFormCheck {
+	margin: 3px 0px 7px 0px;
+}
+.loginFormButton {
+	font: normal 14px "trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px 0px 5px 0px;
+	width: 168px;
+}
+.scEntryForm {
+	width: 35px;
+	margin: 1px 0px;
+}/*
+.scEntryFormDrop {
+	width: 39px;
+}*/
+.scCommentsForm {
+	width: 559px;
+}
+.friendFormArea form {
+	margin-bottom: 5px;
+}
+.feedbackComments {
+	width: 308px;
+	height: 170px;
+}
+.formField input {
+	width: 183px;
+	height: 20px;
+	color: #000000;
+	background: #ffffff;
+	border: none;
+	margin-left: 10px;
+}
+
+.formField select {
+	width: 183px;
+	color: #000000;
+	background: #ffffff;
+	border: 1px solid #ffffff;
+	margin-left: 10px;
+}
+.formField select.digit2 {
+	width: 40px;
+	color: #000000;
+	background: #ffffff;
+	border: 1px solid #ffffff;
+	margin-left: 10px;
+}
+.formField select.digit2b {
+	width: 40px;
+	color: #000000;
+	background: #ffffff;
+	border: 1px solid #ffffff;
+	margin-left: 0px;
+}
+.formField select.digit4 {
+	width: 60px;
+	color: #000000;
+	background: #ffffff;
+	border: 1px solid #ffffff;
+	margin-left: 0px;
+}
+/* table styles */
+table.scorecard {
+	border-width: 0px;
+	border-spacing: ;
+	border-style: solid;
+	border-color: #C9C9C1;
+	border-collapse: collapse;
+	background-color: #FFFFFF;
+}
+table.scorecard td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #C9C9C1;
+	background-color: ;
+	-moz-border-radius: ;
+	white-space: nowrap;
+}
+table.scorecard tr.scTop td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #C9C9C1;
+	background-color: #515151;
+	-moz-border-radius: ;
+	white-space: nowrap;
+}
+
+table.scorecard tr.scTop td.tools {
+	background-color: #2b9838;	
+}
+table.scorecard tr.scDetails td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #C9C9C1;
+	background-color: #f1f1f1;
+	-moz-border-radius: ;
+	white-space: nowrap;
+}
+
+table.scorecard tr.scEntry td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #C9C9C1;
+	background-color: #f1f1f1;
+	-moz-border-radius: ;
+	white-space: nowrap;
+}
+
+table.scorecard tr.scAlt td {
+
+	border-width: 1px;
+
+	padding: 5px;
+
+	border-style: solid;
+
+	border-color: #C9C9C1;
+
+	background-color: #e2e2e2;
+
+	-moz-border-radius: ;
+
+	white-space: nowrap;
+
+}
+table.scorecard tr.scExtra td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #C9C9C1;
+	background-color: #2b9838;
+	-moz-border-radius: ;
+	white-space: nowrap;
+}
+
+table.scorecard tr.scAlpha td {
+
+	border-width: 1px;
+
+	padding: 5px;
+
+	border-style: solid;
+
+	border-color: #104a17;
+
+	background-color: #2b9838;
+
+	-moz-border-radius: ;
+
+	white-space: nowrap;
+
+}
+table.scorecard tr.scTop td p {
+	color: #ffffff;
+	font-weight: bold;
+}
+table.scorecard tr.scDetails td p {
+	color: #000000;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+table.scorecard tr.scEntry td p {
+	color: #000000;
+	font-weight: bold;
+}
+
+table.scorecard tr.scAlt td p {
+
+	color: #000000;
+
+	font-weight: bold;
+
+}
+table.scorecard tr.scExtra td p {
+	color: #ffffff;
+	font-weight: bold;
+
+}
+
+table.scorecard tr.scAlpha td p {
+
+	color: #ffffff;
+
+	font-weight: bold;
+	
+	text-align: center;
+
+}
+/* editable area styles */
+a.updateLink:link, a.updateLink:visited {
+	font-size: 0.85em;
+	color: #06084f;
+	text-decoration: none;
+}
+a.updateLink:hover, a.updateLink:active {
+	text-decoration: underline;
+}
+a.hideLink:link, a.hideLink:visited {
+	font-size: 0.85em;
+	color: #7f0e0e;
+	text-decoration: none;
+}
+a.hideLink:hover, a.hideLink:active {
+	text-decoration: underline;
+}

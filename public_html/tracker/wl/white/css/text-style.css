@@ -1,0 +1,241 @@
+/* default styles */
+p, h1, h2, h3, h4, h5 { 
+	font-family: "trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+p {
+	font-size: 0.8em;
+	color: #000000;
+}
+h1 {
+	font-size: 1.05em;
+	font-weight: bold;
+	color: #000000;
+}
+h2 {
+	font-size: 0.95em;
+	font-weight: bold;
+	color: #333333;
+}
+h3 {
+	font-size: 0.95em;
+	font-weight: bold;
+	color: #06084f;
+}
+h4 {
+	font-size: 0.85em;
+	font-weight: bold;
+	color: #ab0707;
+}
+h5 {
+	font-size: 0.85em;
+	font-weight: bold;
+	color: #1b5c9d;
+}
+/* custom styles */
+.navBarText {
+	font-weight: bold;
+	color: #707070;
+}
+.redText {
+	color: #7f0e0e;
+}
+.smallText {
+	font-size: 0.75em;
+}
+.lostPasswordText {
+	font-size: 0.75em;
+	color: #848484;
+}
+.smlGreyText {
+	color: #6c6c6c;
+	font-size: 0.7em;
+}
+.lrgBlueText {
+	color: #172fa3;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+.footerText {
+	color: #404664;
+	font-size: 0.75em;
+}
+.hSmallText {
+	font-size: 0.8em;
+}
+.hSmallBlueText {
+	font-size: 0.8em;
+	color: #172fa3;
+}
+.hNormalText {
+	color: #000000;
+	font-size: 0.9em;
+}
+/* link styles */
+a:link, a:visited {
+	font-weight: bold;
+	color: #707070;
+	text-decoration: none;
+}
+a:hover, a:active {
+	text-decoration: underline;
+}
+.loginArea a:link, .loginArea a:visited {
+	color: #ab0707;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 1px dotted #ab0707;
+}
+.loginArea a:hover, .loginArea a:active {
+	text-decoration: none;
+	border-bottom: 1px solid #ab0707;
+}
+.addCourseContent a:link, .addCourseContent a:visited {
+	color: #7f0e0e;
+	font-weight: bold;
+	text-decoration: none;
+}
+.addCourseContent a:hover, .addCourseContent a:active {
+	text-decoration: underline;
+}
+a.redLink:link, a.redLink:visited {
+	color: #7f0e0e;
+	text-decoration: none;
+}
+a.redLink:hover, a.redLink:active {
+	text-decoration: underline;
+}
+a.whatLink:link, a.whatLink:visited {
+	color: #7f0e0e;
+	text-decoration: none;
+}
+a.whatLink:hover, a.whatLink:active {
+	text-decoration: underline;
+}
+a.blueLink:link, a.blueLink:visited {
+	color: #06084f;
+	text-decoration: none;
+}
+a.blueLink:hover, a.blueLink:active {
+	text-decoration: underline;
+}
+a.lostPasswordLink:link, a.lostPasswordLink:visited {
+	color: #848484;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.lostPasswordLink:hover, a.lostPasswordLink:active {
+	text-decoration: underline;
+	font-weight: bold;
+}
+a.footerLink:link, a.footerLink:visited {
+	color: #404664;
+	text-decoration: none;
+}
+a.footerLink:hover, a.footerLink:active {
+	text-decoration: underline;
+}
+a.smlGreyLink:link, a.smlGreyLink:visited {
+	color: #6c6c6c;
+	text-decoration: none;
+}
+a.smlGreyLink:hover, a.smlGreyLink:active {
+	text-decoration: underline;
+}
+a.blackLink:link, a.blackLink:visited {
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+a.blackLink:hover, a.blackLink:active {
+	text-decoration: underline;
+}
+a.helpLink:link, a.helpLink:visited {
+	color: #156c95;
+	font-weight: normal;
+	text-decoration: none;
+}
+a.helpLink:hover, a.helpLink:active {
+	text-decoration: underline;
+}
+/* image styles */
+img {
+	border: 0;
+	text-decoration: none;
+}
+.bannerVertical {
+	margin-bottom: 5px;
+}
+.buttonMargin {
+	margin-right: 25px;
+}
+.getFlash {
+	float: left;
+	margin: 0px 10px 25px 0px;
+}
+.tonicBox {
+	float: right;
+	margin: 0px 0px 25px 5px;
+}
+.profilePicMargin {
+	margin-bottom: 5px;
+}
+.registerButton {
+	margin-bottom: 70px;
+}
+/* form styles */
+form {
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+.loginForm {
+	margin: 2px 0px 2px 0px;
+	width: 165px;
+	border: 1px solid #9e9e9e;
+	font: normal 0.9em "trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+.loginFormCheck {
+	margin: 3px 0px 7px 0px;
+}
+.loginFormButton {
+	font: normal 14px "trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px 0px 5px 0px;
+	width: 168px;
+}
+/* table styles */
+table.scorecard {
+	border-width: 0px;
+	border-spacing: ;
+	border-style: solid;
+	border-color: #C9C9C1;
+	border-collapse: collapse;
+	background-color: #FFFFFF;
+}
+table.scorecard td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #C9C9C1;
+	background-color: ;
+	-moz-border-radius: ;
+	white-space: nowrap;
+}
+/* editable area styles */
+a.updateLink:link, a.updateLink:visited {
+	font-size: 0.85em;
+	color: #06084f;
+	text-decoration: none;
+}
+a.updateLink:hover, a.updateLink:active {
+	text-decoration: underline;
+}
+a.hideLink:link, a.hideLink:visited {
+	font-size: 0.85em;
+	color: #7f0e0e;
+	text-decoration: none;
+}
+a.hideLink:hover, a.hideLink:active {
+	text-decoration: underline;
+}

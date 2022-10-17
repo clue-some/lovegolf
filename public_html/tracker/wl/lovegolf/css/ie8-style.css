@@ -1,0 +1,7 @@
+/* styles for IE 8 */
+.loginBoxArea input.field {
+	padding: 6px 9px 6px 9px;
+}
+.registerBoxArea input {
+	margin-top: 29px;
+}

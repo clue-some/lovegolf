@@ -1,0 +1,607 @@
+/* page elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background: #f3f3f3 url('/wl/onlinegolftracker/images/im-bkg-tile.gif') repeat-x;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+/* DIV's */
+/* hidden DIVS */
+.logo h1 span {
+	display: none;
+}
+/* functional stuff */
+.floatEnder {
+	clear: both;
+}
+.floatDivider {
+	float: left;
+	width: 10px;
+	left: 0px;
+	top: 0px;
+}
+/* layout DIVS */
+.wrapper {
+	margin: 0px auto;
+	width: 1001px;
+	background: #ffffff;
+	border-left: 1px dotted #e6e6e6;
+	border-right: 1px dotted #e6e6e6;
+}
+.container {
+	margin: 0px auto;
+	width: 981px;
+	text-align: left;
+	background: #ffffff;
+}
+/* header DIVS */
+.header {
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+.logoHolder {
+	float: left;
+	width: 511px;
+	left: 0px;
+	top: 0px;
+}
+.logoPart1, .logoPart2 {
+	float: left;
+	width: 225px;
+	background: #ffffff url('/wl/onlinegolftracker/images/im-logo-strap.gif') no-repeat 0 0;
+}
+.logoPart2 {
+	width: 269px;
+	background: #ffffff url('/wl/onlinegolftracker/images/im-logo-strap02.gif') no-repeat 0 0;
+}
+.topBannerHolder {
+	float: left;
+	width: 470px;
+	left: 0px;
+	top: 0px;
+}
+.topBanner {
+	top: 0px;
+	left: 0px;
+	border: 1px solid #ffffff;
+	padding: 17px 0px 0px 0px;
+}
+.headerBar {
+	position: relative;
+	width: 981px;
+	top: 0px;
+	left: 0px;
+	background: #0b951b;
+	margin: 0px 0px 5px 0px;
+}
+/* navigation DIVS */
+.navBarHolder {
+	width: 981px;
+	top: 0px;
+	left: 0px;
+	border-color: #b5b5b5;
+	border-style: solid;
+	border-width: 1px 0px 1px 0px;
+	margin-bottom: 5px;
+}
+.navBar {
+	top: 0px;
+	left: 0px;
+	padding: 5px;
+}
+.navBarPrimary {
+	float: left;
+	width: 646px;
+	left: 0px;
+	top: 0px;
+	text-align: left;
+}
+.navBarContent {
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+.navBarSecondary {
+	float: left;
+	width: 325px;
+	left: 0px;
+	top: 0px;
+	text-align: right;
+}
+.loginArea {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	padding: 3px;
+}
+/* main content area DIVS */
+.bodyArea {
+	float: left;
+	width: 856px;
+	height: auto;
+}
+.mainArea {
+	float: left;
+	width: 666px;
+	height: auto;
+}
+.superMainArea {
+	width: 854px;
+	height: auto;
+}
+.moduleArea {
+	margin-top: 14px;
+	height: auto;
+}
+.courseListArea {
+	margin-top: 4px;
+	height: auto;
+}
+.courseFilterFloat, .courseFilterFloatButton {
+	float: left;
+	margin-right: 20px; 	
+}
+.courseFilterFloatButton {
+	margin: 25px 0px 0px 10px;
+}
+.courseNumberFloat, .coursePageFloat {
+	float: left;
+	padding: 7px 0px 3px 0px;	
+}
+.coursePageFloat {
+	float: right;
+}
+.moduleTitle {
+	width: 666px;
+	left: 0px;
+	top: 0px;
+}
+.pageTitle {
+	float: left;
+	width: 500px;
+	padding-bottom: 10px;
+}
+.moduleTitleLeft {
+	float: left;
+	width: 57px;
+	left: 0px;
+	top: 0px;
+	background: url('/images/im-grey-module-top-left.jpg') no-repeat 0 0;
+}
+.moduleTitleContent {
+	float: left;
+	left: 0px;
+	top: 0px;
+	padding: 5px 0px 5px 0px;
+	background: url('/images/im-grey-module-top-bkg.jpg') repeat-x;
+}
+.moduleTitleRight {
+	float: left;
+	background: #ffffff url('/images/im-grey-module-top-right.jpg') no-repeat 0 0;
+}
+.moduleTitleRightNew {
+	float: left;
+	background: #ffffff url('/images/im-grey-module-top-right-new.gif') no-repeat 0 0;
+}
+.moduleBox {
+	background: #ffffff url('/images/im-grey-module-bkg.jpg') no-repeat 0 0;
+	padding: 10px;
+}
+.whatGCPStep1, .whatGCPStep2, .whatGCPStep3 {
+	float: left;
+}
+.whatGCPStep1 {
+	padding: 2px 5px 5px 5px;
+}
+.whatGCPStep2 {
+	padding: 0px 5px 5px 5px;
+	margin-top: -20px;
+}
+.whatGCPStep3 {
+	padding: 5px 5px 5px 5px;
+}
+.whatGCPText {
+	text-align: right;
+}
+.hpMainButtonHolder {
+	float: left;
+	width: 222px;
+	text-align: center;
+}
+#scroller {
+	width: 651px;
+	height: 110px;
+}
+.buttonHolder {
+	float: left;
+}
+.latestCoursesArea {
+	float: left;
+	width: 180px;
+}
+.courseFinderMargin {
+	float: left;
+	width: 180px;
+	margin-top: 44px;
+}
+.gameSummaryArea {
+	float: left;
+	width: 481px;
+	left: 0px;
+	top: 0px;
+	margin-left: 5px;
+}
+.courseBullet {
+	float: right;
+	width: 16px;
+	left: 0px;
+	top: 0px;
+	margin: 2px 0px 0px 6px;
+}
+.loginBoxArea, .registerBoxArea {
+	float: left;
+	width: 323px;
+	min-height: 275px;
+	height: auto;
+	background: #e1e1f4;
+	border: 1px solid #afb2d5;
+}
+.registerBoxArea {
+	margin-left: 11px;
+	background: #daf1da;
+	border: 1px solid #a8d2aa;
+}
+.loginBoxContent, .registerBoxContent {
+	padding: 7px;
+}
+.courseStepArea {
+	background: url('/images/im-course-step-bkg.gif') repeat-x;
+}
+.courseStepHolder {
+	float: left;
+	width: 611px;
+}
+.courseHelpHolder {
+	float: right;
+	width: 60px;
+	margin-top: 5px;
+}
+.helpIcon {
+	float: left;
+	margin: 1px 0px 0px 10px;
+}
+.addCourseArea, .addScorecardArea {
+	width: 671px;
+}
+.addCourseContent, .addScorecardContent {
+	padding: 7px;
+}
+.addCourseContentBack {
+	width: 436px;
+	margin-top: 10px;
+}
+.courseHighlightBox {
+	padding: 7px;
+	background: #e1e1f4;
+	border: 1px solid #afb2d5;
+}
+.step3Holder {
+	float: left;
+}
+.step3Area {
+	float: left;
+	left: 0px;
+	top: 0px;
+}
+.step3TextArea {
+	float: left;
+	width: 200px;
+	left: 0px;
+	top: 0px;
+}
+.footerArea {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin-top: 50px;
+}
+.footerContent, .footerExtraContent {
+	left: 0px;
+	top: 0px;
+	text-align: center;
+}
+.footerExtraContent {
+	margin: 0px auto;
+	width: 668px;
+	padding-top: 10px;
+}
+.footerExtraFloat {
+	float: left;
+	width: 334px;
+	left: 0px;
+	top: 0px;
+}
+.friendImageFloat1, .friendImageFloat2, .friendArea {
+	float: left;
+	width: 165px;
+}
+.friendImageFloat2 {
+	width: 196px;
+}
+.friendArea {
+	width: 300px;
+}
+.friendAreaRight {
+	float: right;
+	width: 361px;
+}
+.friendAreaContent {
+	padding: 20px 10px 0px 20px;
+}
+.friendFormArea, .feedbackArea {
+	padding: 10px;
+	border: 1px dashed #989898;
+	background: #ececec;
+	margin-bottom: 10px;
+}
+.friendAreaTerms {
+	padding: 20px 10px;
+}
+.itemDivider {
+	width: 100%;
+	height: 1px;
+	border-bottom: 1px dotted #666666;	
+}
+.courseAddressArea, .courseContactArea {
+	float: left;
+	width: 310px;
+}
+.courseContactArea {
+	margin-left: 26px;	
+	text-align: right;
+}
+/* right content DIVS */
+.rightArea {
+	float: left;
+	width: 180px;
+	padding-left: 8px;
+}
+.standardBox, .trackingBox {
+	border: 1px solid #b5b5b5;
+	background: #ffffff;
+	margin-bottom: 5px;
+}
+.trackingBox {
+	margin-bottom: 10px;
+}
+.standardBoxTitle, .loggedInBoxTitle, .standardBoxCoursesTitle, .trackingBoxTitle {
+	padding: 3px 5px 3px 5px;
+	border-bottom: 1px dashed #b5b5b5;
+}
+.standardBoxTitle {
+	background: #dedede;
+}
+.loggedInBoxTitle {
+	background: #c0c9f4;
+}
+.standardBoxCoursesTitle {
+	background: #b7e9ae;
+}
+.trackingBoxTitle {
+	background: #515151;
+}
+.standardBoxContent, .standardBoxSubContent, .standardBoxProfileContent, .standardBoxProfile1Content {
+	padding: 5px;
+}
+.standardBoxSubContent, .standardBoxProfileContent {
+	border-bottom: 1px dashed #b5b5b5;
+}
+.standardBoxProfileContent, .standardBoxProfile1Content {
+	padding: 5px 5px 5px 0px;
+}
+#hiddenRegion , #hiddenRegion1, #hiddenRegion2, #hiddenRegion3 {
+	
+}
+.checkBoxFloat {
+	float: left;
+	left: 0px;
+	top: 0px;
+	margin-right: 5px;
+}
+.userProfileArea, .userProfileContent {
+	float: left;
+	left: 0px;
+	top: 0px;
+}
+.userProfileArea {
+	width: 76px;
+	margin: 6px;
+}
+.userProfileContent {
+	width: 90px;
+}
+.userProfileArea p, .userProfileContent p {
+	font-size: 0.75em;
+}
+.verifiedLogo {
+	float: left;
+	margin-right: 10px;	
+}
+/* banner DIVS */
+.bannerArea {
+	float: left;
+	width: 120px;
+	left: 0px;
+	top: 0px;
+	padding-left: 5px;
+}
+/* editable area DIVS */
+.editAreaPadding {
+	left: 0px;
+	top: 0px;
+	padding: 5px;
+	margin-top: 5px;
+	border: 1px solid #999999;
+}
+.hideFloat {
+	float: right;
+}
+/* add scorecard DIVS */
+.addScorecardItem {
+	padding: 5px 5px 10px 5px;
+	border-bottom: 1px dotted #666666;
+}
+.addScorecardImage {
+	float: left;
+	width: 74px;
+	margin: 0px 10px 0px 0px;
+	text-align: center;
+}
+.addScorecardDetails {
+	float: left;
+	width: 563px;
+}
+.addScorecardNextFloat {
+	margin-top: 5px;
+	float: right;
+}
+.addScorecardNextNormal {
+	margin: 5px 0px;
+	text-align: right;
+}
+/* AJAX Loading */
+.loading {
+	background: #ffffff url('/wl/onlinegolftracker/images/ajax-loading.gif') no-repeat 90px 50%;
+	padding-left: 130px;
+	line-height: 50px;
+	font-weight: bold;
+	min-height: 50px;
+}
+/* tracking centre DIVS */
+.trackingTabArea {
+	width: 848px;
+	padding-left: 6px;
+	background: #ffffff url('/wl/onlinegolftracker/images/im-tracker-box-bkg.gif') no-repeat 0 30px;
+}
+.trackingTab {
+	float: left;
+	margin-left: 7px;
+}
+.tabImageLeftOn {
+	float: left;
+	background: url('/wl/onlinegolftracker/images/im-tracker-tab-left-on.gif') no-repeat 0 0;
+	width: 8px;
+}
+.tabAreaOn {
+	float: left;
+	background: url('/wl/onlinegolftracker/images/im-tracker-tab-bkg-tile-on.gif') repeat-x;
+	height: 32px;
+}
+.tabAreaContentOn {
+	padding: 4px 5px 0px 5px;
+}
+.tabImageRightOn {
+	float: left;
+	background: url('/wl/onlinegolftracker/images/im-tracker-tab-right-on.gif') no-repeat 0 0;
+	width: 8px;
+}
+.tabImageLeftOff {
+	float: left;
+	background: url('/wl/onlinegolftracker/images/im-tracker-tab-left-off.gif') no-repeat 0 0;
+	width: 8px;
+}
+.tabAreaOff {
+	float: left;
+	background: url('/wl/onlinegolftracker/images/im-tracker-tab-bkg-tile-off.gif') repeat-x;
+	height: 32px;
+}
+.tabAreaContentOff {
+	padding: 8px 5px 0px 5px;
+}
+.tabImageRightOff {
+	float: left;
+	background: url('/wl/onlinegolftracker/images/im-tracker-tab-right-off.gif') no-repeat 0 0;
+	width: 8px;
+}
+.trackingBody {
+	width: 854px;
+	background: url('/wl/onlinegolftracker/images/im-tracker-box-bkg-tile.gif') repeat-y;
+}
+.trackingBodyContent {
+	padding: 13px 13px;
+	background: url('/wl/onlinegolftracker/images/im-tracker-box-bkg.gif') no-repeat 0 -2px;
+}
+.trackingFooter {
+	margin-bottom: 20px;
+	background: url('/wl/onlinegolftracker/images/im-tracker-box-bottom.gif') no-repeat 0 0;
+}
+.trackingLeftArea {
+	float: left;
+	width: 180px;
+	margin-right: 10px;	
+}
+.trackingRightArea {
+	float: left;
+	width: 632px;
+}
+.trackingChartLinks {
+	padding: 10px 0px;
+	text-align: center;	
+}
+/* register form DIVS */
+.regFormLeft {
+	float: left;
+	width: 393px;
+}
+.regFormRight {
+	float: left;
+	width: 393px;
+	margin-left: 10px;
+}
+.regFormItem {
+	background: url('/wl/onlinegolftracker/images/im-reg-form-item-bkg.gif') no-repeat 0 0;
+	padding: 10px 2px 10px 10px;
+	height: 28px;
+}
+.regFormItemNone {
+	padding: 10px 2px 10px 10px;
+	height: 28px;
+}
+.regFormItemNormal {
+	padding: 0px 10px 12px 10px;
+}
+.regFormValidate {
+	background: url('/wl/onlinegolftracker/images/im-reg-form-validation-bkg.gif') no-repeat 0 0;
+	height: 136px;
+}
+.regFormValidateContent {
+	padding: 20px;	
+}
+.newsletterCheck {
+	float: right;
+	margin: 5px 0px 10px 10px;
+}
+.formName {
+	float: left;
+	width: 173px;
+}
+.formField {
+	float: left;
+	width: 201px;
+}
+.validationImage {
+	float: left;
+	margin-right: 10px;
+}
+/* golf news divs */
+.golfNewsHolder {
+	padding: 10px 0px;
+	border-bottom: 1px dashed #808080;
+}

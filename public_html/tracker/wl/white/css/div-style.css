@@ -1,0 +1,450 @@
+/* page elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background: #ffffff url('/wl/white/images/im-cr-bkg-image.gif') no-repeat 50% 0%;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+/* DIV's */
+/* hidden DIVS */
+.logo h1 span {
+	display: none;
+}
+/* functional stuff */
+.floatEnder {
+	clear: both;
+}
+.floatDivider {
+	float: left;
+	width: 10px;
+	left: 0px;
+	top: 0px;
+}
+/* layout DIVS */
+.container {
+	margin: 0px auto;
+	top: 0px;
+	width: 1000px;
+	border: none;
+	text-align: left;
+	background: Transparent;
+}
+/* header DIVS */
+.header {
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+.logoHolder {
+	float: left;
+	width: 530px;
+	left: 0px;
+	top: 0px;
+}
+.logo h1 {
+	top: 0px;
+	left: 0px;
+	width: 352px;
+	height: 92px;
+	background: Transparent url('/wl/white/images/im-logo-strap.gif') no-repeat 0 0;
+}
+.logoPosition {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.topBannerHolder {
+	float: left;
+	width: 470px;
+	left: 0px;
+	top: 0px;
+}
+.topBanner {
+	top: 0px;
+	left: 0px;
+	padding: 17px 0px 0px 0px;
+}
+.headerBar {
+	position: relative;
+	width: 1000px;
+	top: 0px;
+	left: 0px;
+	background: #d6271e;
+	margin: 0px 0px 5px 0px;
+}
+/* navigation DIVS */
+.navBarHolder {
+	width: 1000px;
+	top: 0px;
+	left: 0px;
+	border-color: #000000;
+	border-style: solid;
+	border-width: 1px 0px 1px 0px;
+	margin-bottom: 5px;
+}
+.navBar {
+	top: 0px;
+	left: 0px;
+	padding: 5px;
+}
+.navBarPrimary {
+	float: left;
+	width: 655px;
+	left: 0px;
+	top: 0px;
+	text-align: left;
+}
+.navBarContent {
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+.navBarSecondary {
+	float: left;
+	width: 335px;
+	left: 0px;
+	top: 0px;
+	text-align: right;
+}
+.loginArea {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	padding: 3px;
+}
+/* main content area DIVS */
+.bodyArea {
+	float: left;
+	width: 861px;
+	left: 0px;
+	top: 0px;
+}
+.mainArea {
+	float: left;
+	width: 671px;
+	left: 0px;
+	top: 0px;
+	padding-left: 5px;
+}
+.moduleArea {
+	left: 0px;
+	top: 0px;
+	margin-top: 14px;
+}
+.moduleTitle {
+	width: 671px;
+	left: 0px;
+	top: 0px;
+}
+.pageTitle {
+	width: 671px;
+	left: 0px;
+	top: 0px;
+	padding-bottom: 10px;
+}
+.moduleTitleLeft {
+	float: left;
+	width: 57px;
+	left: 0px;
+	top: 0px;
+	background: url('/images/im-grey-module-top-left.jpg') no-repeat 0 0;
+}
+.moduleTitleContent {
+	float: left;
+	left: 0px;
+	top: 0px;
+	padding: 5px 0px 5px 0px;
+	background: url('/images/im-grey-module-top-bkg.jpg') repeat-x;
+}
+.moduleTitleRight {
+	float: left;
+	left: 0px;
+	top: 0px;
+	background: #ffffff url('/images/im-grey-module-top-right.jpg') no-repeat 0 0;
+}
+.moduleTitleRightNew {
+	float: left;
+	left: 0px;
+	top: 0px;
+	background: #ffffff url('/images/im-grey-module-top-right-new.gif') no-repeat 0 0;
+}
+.moduleBox {
+	left: 0px;
+	top: 0px;
+	background: #ffffff url('/images/im-grey-module-bkg.jpg') no-repeat 0 0;
+	padding: 10px;
+}
+.whatGCPStep1, .whatGCPStep2, .whatGCPStep3 {
+	float: left;
+	left: 0px;
+	top: 0px;
+}
+.whatGCPStep1 {
+	padding: 2px 5px 5px 5px;
+}
+.whatGCPStep2 {
+	padding: 0px 5px 5px 5px;
+	margin-top: -20px;
+}
+.whatGCPStep3 {
+	padding: 5px 5px 5px 5px;
+}
+.whatGCPText {
+	left: 0px;
+	top: 0px;
+	text-align: right;
+}
+.hpMainButtonHolder {
+	float: left;
+	width: 222px;
+	left: 0px;
+	top: 0px;
+	text-align: center;
+}
+#scroller {
+	width: 651px;
+	height: 110px;
+	left: 0px;
+	top: 0px;
+}
+.buttonHolder {
+	float: left;
+	left: 0px;
+	top: 0px;
+}
+.latestCoursesArea {
+	float: left;
+	width: 180px;
+	left: 0px;
+	top: 0px;
+	margin-top: 44px;
+}
+.gameSummaryArea {
+	float: left;
+	width: 486px;
+	left: 0px;
+	top: 0px;
+	margin-left: 5px;
+}
+.courseBullet {
+	float: right;
+	width: 16px;
+	left: 0px;
+	top: 0px;
+	margin: 9px 0px 6px 6px;
+}
+.loginBoxArea, .registerBoxArea {
+	float: left;
+	width: 330px;
+	left: 0px;
+	top: 0px;
+}
+.registerBoxArea {
+	margin-left: 11px;
+}
+.loginBoxContent, .registerBoxContent {
+	left: 0px;
+	top: 0px;
+	padding: 7px;
+	background: #e1e1f4;
+	border: 1px solid #afb2d5;
+}
+.registerBoxContent {
+	background: #daf1da;
+	border: 1px solid #a8d2aa;
+}
+.courseStepArea {
+	left: 0px;
+	top: 0px;
+	background: url('/images/im-course-step-bkg.gif') repeat-x;
+}
+.courseStepHolder, .courseHelpHolder {
+	float: left;
+	width: 611px;
+	left: 0px;
+	top: 0px;
+}
+.courseHelpHolder {
+	width: 60px;
+	margin-top: 5px;
+}
+.helpIcon {
+	float: left;
+	margin: 1px 0px 0px 10px;
+}
+.addCourseArea {
+	width: 671px;
+	left: 0px;
+	top: 0px;
+	background: url('/images/im-grey-gradient.gif') repeat-x;
+}
+.addCourseContent {
+	left: 0px;
+	top: 0px;
+	padding: 7px;
+}
+.addCourseContentBack {
+	width: 436px;
+	left: 0px;
+	top: 0px;
+	margin-top: 10px;
+}
+.courseHighlightBox {
+	left: 0px;
+	top: 0px;
+	padding: 7px;
+	background: #e1e1f4;
+	border: 1px solid #afb2d5;
+}
+.step3Holder {
+	float: left;
+	left: 0px;
+	top: 0px;
+}
+.step3Area {
+	float: left;
+	left: 0px;
+	top: 0px;
+}
+.step3TextArea {
+	float: left;
+	width: 200px;
+	left: 0px;
+	top: 0px;
+}
+.footerArea {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin-top: 50px;
+}
+.footerContent, .footerExtraContent {
+	left: 0px;
+	top: 0px;
+	text-align: center;
+}
+.footerExtraContent {
+	margin: 0px auto;
+	width: 668px;
+	padding-top: 10px;
+}
+.footerExtraFloat {
+	float: left;
+	width: 334px;
+	left: 0px;
+	top: 0px;
+}
+/* right content DIVS */
+.rightArea {
+	float: left;
+	width: 180px;
+	left: 0px;
+	top: 0px;
+	padding-left: 5px;
+}
+.standardBox {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	border: 1px solid #b5b5b5;
+	background: #ffffff;
+	margin-bottom: 5px;
+}
+.standardBoxTitle, .loggedInBoxTitle, .standardBoxCoursesTitle {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	padding: 3px 5px 3px 5px;
+	border-bottom: 1px dashed #b5b5b5;
+}
+.standardBoxTitle {
+	background: #dedede;
+}
+.loggedInBoxTitle {
+	background: #c0c9f4;
+}
+.standardBoxCoursesTitle {
+	background: #b7e9ae;
+}
+.standardBoxContent, .standardBoxSubContent, .standardBoxProfileContent, .standardBoxProfile1Content {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	padding: 5px;
+}
+.standardBoxSubContent, .standardBoxProfileContent {
+	border-bottom: 1px dashed #b5b5b5;
+}
+.standardBoxProfileContent, .standardBoxProfile1Content {
+	padding: 5px 5px 5px 0px;
+}
+.checkBoxFloat {
+	float: left;
+	left: 0px;
+	top: 0px;
+	margin-right: 5px;
+}
+.userProfileArea, .userProfileContent {
+	float: left;
+	left: 0px;
+	top: 0px;
+}
+.userProfileArea {
+	width: 76px;
+	margin: 6px;
+}
+.userProfileContent {
+	width: 90px;
+}
+.userProfileArea p, .userProfileContent p {
+	font-size: 0.75em;
+}
+/* banner DIVS */
+.bannerArea {
+	float: left;
+	width: 134px;
+	left: 0px;
+	top: 0px;
+	padding-left: 5px;
+}
+/* editable area DIVS */
+.editAreaPadding {
+	left: 0px;
+	top: 0px;
+	padding: 5px;
+	margin-top: 5px;
+	border: 1px solid #999999;
+}
+.hideFloat {
+	float: right;
+}
+/* add scorecard DIVS */
+.addScorecardItem {
+	left: 0px;
+	top: 0px;
+	padding: 5px 5px 10px 5px;
+	border-bottom: 1px dotted #666666;
+}
+.addScorecardImage {
+	float: left;
+	left: 0px;
+	top: 0px;
+	width: 74px;
+	margin: 0px 10px 0px 0px;
+	text-align: center;
+}
+.addScorecardContent {
+	float: left;
+	left: 0px;
+	top: 0px;
+}
+.addScorecardNextFloat {
+	float: right;
+	margin-top: 30px;
+}

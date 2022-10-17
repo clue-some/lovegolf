@@ -1,0 +1,16 @@
+/* style for firefox */
+@-moz-document url-prefix() {
+	
+.nmbaTextFloat {
+	padding: 8px 20px 0px 0px;
+}
+.ovSBTitle {
+	margin-top: 1px;
+}
+.leftBox input.field {
+	padding: 2px 7px 3px 7px;
+}
+.sssHolder {
+	padding: 2px 0px 0px 48px;
+}
+}

@@ -1,0 +1,15 @@
+--- 
+filter: 
+  - 
+    actions: 
+      - 
+        action: deliver
+        dest: tonicbox@googlemail.com
+    filtername: Shop Gmail
+    rules: 
+      - 
+        match: contains
+        opt: or
+        part: $message_headers
+        val: shop@lovegolf.co.uk
+    unescaped: 1

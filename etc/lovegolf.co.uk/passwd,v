@@ -1,0 +1,40 @@
+head	1.2;
+access;
+symbols;
+locks
+	wwwlove:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2009.09.23.11.27.38;	author wwwlove;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2009.09.23.11.26.50;	author wwwlove;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@lee:x:515:515::/home/wwwlove/mail/lovegolf.co.uk/lee:/bin/bash
+info:x:515:515::/home/wwwlove/mail/lovegolf.co.uk/info:/bin/bash
+@
+
+
+1.1
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d2 1
+@

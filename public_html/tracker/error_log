@@ -1,0 +1,265 @@
+[01-Apr-2012 08:18:22 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[01-Apr-2012 08:18:50 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[02-Apr-2012 08:46:32 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[02-Apr-2012 13:00:01 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[04-Apr-2012 17:29:47 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[05-Apr-2012 20:07:34 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[10-Apr-2012 10:26:13 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[10-Apr-2012 10:26:36 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[11-Apr-2012 07:18:23 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[21-Apr-2012 16:11:12 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[22-Apr-2012 15:16:07 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[22-Apr-2012 20:20:33 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[26-Apr-2012 20:18:14 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[26-Apr-2012 20:18:53 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[27-Apr-2012 06:55:19 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[27-Apr-2012 06:55:27 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[27-Apr-2012 06:55:54 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[27-Apr-2012 06:56:10 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[27-Apr-2012 06:56:16 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[27-Apr-2012 06:56:47 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[27-Apr-2012 06:56:48 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 125
+[27-Apr-2012 06:56:58 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 115
+[27-Apr-2012 06:57:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wwwlove/public_html/tracker/tracking-statistics.php on line 23
+[27-Apr-2012 06:57:09 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[27-Apr-2012 06:57:24 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[30-Apr-2012 20:29:24 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[03-May-2012 10:13:16 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[03-May-2012 10:13:32 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[03-May-2012 10:13:45 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[03-May-2012 10:15:23 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[03-May-2012 10:15:37 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[03-May-2012 10:15:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wwwlove/public_html/tracker/tracking-statistics.php on line 23
+[03-May-2012 10:15:45 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 105
+[03-May-2012 10:15:47 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 85
+[03-May-2012 10:15:50 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[03-May-2012 10:54:58 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[03-May-2012 10:55:03 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[03-May-2012 10:55:09 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 85
+[03-May-2012 10:55:16 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[03-May-2012 10:55:17 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[03-May-2012 10:55:18 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 125
+[04-May-2012 16:43:13 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[05-May-2012 21:00:27 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[06-May-2012 19:37:05 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[06-May-2012 19:37:39 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[06-May-2012 21:18:42 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[07-May-2012 15:10:45 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[07-May-2012 15:11:51 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[09-May-2012 17:12:05 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[13-May-2012 21:39:14 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[16-May-2012 13:48:00 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[16-May-2012 18:26:28 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[16-May-2012 18:26:33 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[16-May-2012 18:26:39 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[17-May-2012 21:16:19 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[17-May-2012 21:17:39 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[19-May-2012 19:42:18 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[24-May-2012 08:17:22 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[26-May-2012 09:40:31 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[26-May-2012 09:46:12 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[27-May-2012 20:04:40 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[27-May-2012 21:28:26 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[30-May-2012 20:54:45 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[31-May-2012 11:13:28 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[02-Jun-2012 16:05:54 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[02-Jun-2012 16:06:07 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[02-Jun-2012 20:52:06 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[05-Jun-2012 23:39:25 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[06-Jun-2012 00:25:31 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[06-Jun-2012 20:59:15 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[06-Jun-2012 20:59:29 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[19-Jun-2012 17:37:30 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[23-Jun-2012 16:18:57 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[04-Jul-2012 17:18:17 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[04-Jul-2012 17:18:27 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 105
+[04-Jul-2012 17:18:31 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[05-Jul-2012 14:12:42 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[05-Jul-2012 14:12:43 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[14-Jul-2012 16:51:49 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[15-Jul-2012 21:38:12 UTC] PHP Fatal error:  Smarty error: [in modules/round/add/3.tpl line 167]: syntax error: unrecognized tag: T("#example-custom").tweetBox({
+				         'counter' : false,
+				         'height'  : 100,
+				         'width'   : 400,
+				         'label'   : "Share your score",
+				         'defaultContent' : "I just scored {$round.totalscore (Smarty_Compiler.class.php, line 446) in /usr/local/lib/php/Smarty-2.6.26/Smarty.class.php on line 1093
+[25-Jul-2012 12:32:15 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[25-Jul-2012 19:17:46 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[31-Jul-2012 14:53:05 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[31-Jul-2012 19:35:06 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[31-Jul-2012 19:36:51 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[31-Jul-2012 19:37:01 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 85
+[31-Jul-2012 19:37:16 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[31-Jul-2012 19:37:20 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 85
+[31-Jul-2012 19:37:24 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[31-Jul-2012 19:37:26 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[31-Jul-2012 19:38:41 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[18-Aug-2012 13:40:14 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[18-Aug-2012 13:41:49 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[18-Aug-2012 13:52:04 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 85
+[20-Aug-2012 19:25:51 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[20-Aug-2012 19:44:54 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 85
+[22-Aug-2012 20:59:03 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[22-Aug-2012 20:59:09 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[04-Sep-2012 22:26:40 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[05-Sep-2012 11:24:15 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 85
+[15-Sep-2012 14:18:24 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[17-Sep-2012 15:15:08 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[18-Sep-2012 10:00:04 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[22-Sep-2012 08:33:53 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[22-Sep-2012 08:34:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wwwlove/public_html/tracker/tracking-statistics.php on line 23
+[23-Sep-2012 18:53:50 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[27-Sep-2012 20:25:17 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[28-Sep-2012 10:58:17 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[28-Sep-2012 10:58:50 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 85
+[28-Sep-2012 10:58:58 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 115
+[28-Sep-2012 12:23:19 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[28-Sep-2012 12:23:36 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[28-Sep-2012 12:23:55 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 85
+[28-Sep-2012 12:24:13 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 105
+[28-Sep-2012 12:24:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wwwlove/public_html/tracker/tracking-statistics.php on line 23
+[01-Oct-2012 13:03:30 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[01-Oct-2012 13:09:17 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[01-Oct-2012 13:34:14 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[09-Oct-2012 12:19:15 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[10-Oct-2012 08:15:34 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[10-Oct-2012 19:19:23 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[11-Oct-2012 12:32:13 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[16-Oct-2012 11:59:08 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[21-Oct-2012 22:31:01 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[21-Oct-2012 22:31:06 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 85
+[21-Oct-2012 22:31:12 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[23-Oct-2012 09:57:51 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[08-Nov-2012 15:34:50 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[08-Nov-2012 15:35:26 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[16-Nov-2012 20:13:32 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[24-Nov-2012 19:37:26 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[24-Nov-2012 20:40:14 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 85
+[24-Nov-2012 20:40:18 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 105
+[24-Nov-2012 20:40:41 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[24-Nov-2012 20:41:33 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[24-Nov-2012 20:44:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wwwlove/public_html/tracker/tracking-statistics.php on line 23
+[24-Nov-2012 20:44:48 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 105
+[24-Nov-2012 20:44:53 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 85
+[24-Nov-2012 20:45:01 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[24-Nov-2012 20:56:16 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[04-Dec-2012 21:33:13 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[04-Dec-2012 21:34:33 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[04-Dec-2012 21:34:46 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[04-Dec-2012 21:34:59 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[04-Dec-2012 21:35:04 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[04-Jan-2013 14:29:25 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[04-Jan-2013 14:29:36 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[13-Jan-2013 22:43:48 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[30-Jan-2013 20:38:48 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 85
+[21-Feb-2013 15:09:40 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[21-Feb-2013 19:54:38 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[05-Mar-2013 19:16:58 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[05-Mar-2013 19:17:15 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[05-Mar-2013 19:17:22 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 85
+[05-Mar-2013 19:19:29 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[05-Mar-2013 19:19:29 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[05-Mar-2013 19:20:16 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 85
+[05-Mar-2013 20:01:10 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[26-Mar-2013 15:01:09 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[27-Mar-2013 11:00:31 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[27-Mar-2013 11:07:46 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[28-Mar-2013 12:18:10 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[31-Mar-2013 15:45:06 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[05-Apr-2013 18:35:28 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[05-Apr-2013 18:49:49 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[07-Apr-2013 16:12:50 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[07-Apr-2013 16:13:22 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[07-Apr-2013 16:14:11 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[07-Apr-2013 18:27:39 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 85
+[07-Apr-2013 18:27:42 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[07-Apr-2013 18:27:43 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 125
+[08-Apr-2013 12:35:56 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[08-Apr-2013 12:36:27 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[10-Apr-2013 20:03:10 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[10-Apr-2013 20:03:13 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[10-Apr-2013 20:03:36 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[10-Apr-2013 20:03:45 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 105
+[10-Apr-2013 20:04:03 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[10-Apr-2013 20:04:09 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[10-Apr-2013 20:04:24 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[10-Apr-2013 20:04:36 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[10-Apr-2013 20:04:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wwwlove/public_html/tracker/tracking-statistics.php on line 23
+[10-Apr-2013 20:14:31 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[15-Apr-2013 19:12:49 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[17-Apr-2013 13:03:14 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[17-Apr-2013 13:18:38 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 105
+[17-Apr-2013 13:19:30 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[11-May-2013 22:10:21 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[23-May-2013 12:32:12 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[23-May-2013 12:33:32 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[23-May-2013 12:39:07 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 105
+[23-May-2013 12:39:13 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[25-May-2013 18:21:46 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[25-May-2013 19:58:44 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[28-May-2013 15:54:12 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[14-Jun-2013 20:38:35 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[14-Jun-2013 20:38:48 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[16-Jun-2013 06:03:17 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[19-Jun-2013 07:51:24 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[25-Jun-2013 17:45:47 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[26-Jun-2013 10:56:30 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[26-Jun-2013 10:56:39 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[26-Jun-2013 10:56:49 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[28-Jun-2013 10:05:55 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[28-Jun-2013 10:06:30 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[01-Jul-2013 06:26:09 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[02-Jul-2013 10:19:58 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[27-Jul-2013 16:08:32 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[29-Jul-2013 18:41:32 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[29-Jul-2013 18:41:48 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[29-Jul-2013 18:41:58 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 85
+[29-Jul-2013 18:42:09 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 105
+[01-Sep-2013 17:20:21 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[04-Sep-2013 21:37:47 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[04-Sep-2013 21:42:38 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[04-Sep-2013 21:54:57 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[01-Oct-2013 10:23:05 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[01-Oct-2013 11:28:21 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[01-Oct-2013 11:32:49 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[10-Oct-2013 17:33:16 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[10-Oct-2013 17:33:44 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[28-Oct-2013 08:50:18 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[28-Oct-2013 08:50:26 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[28-Oct-2013 08:50:31 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[28-Oct-2013 08:50:55 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[28-Oct-2013 09:02:58 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[28-Oct-2013 09:03:46 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[04-Nov-2013 15:13:31 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[04-Nov-2013 15:14:25 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[04-Nov-2013 15:14:35 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[04-Nov-2013 15:15:49 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[04-Nov-2013 15:23:48 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[06-Jan-2014 18:24:55 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[06-Jan-2014 18:25:24 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 105
+[06-Jan-2014 18:25:37 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[06-Jan-2014 18:25:43 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[06-Jan-2014 18:25:52 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 85
+[06-Jan-2014 18:26:00 UTC] PHP Warning:  Division by zero in /usr/local/lib/php/Smarty-2.6.26/plugins/function.math.php(66) : eval()'d code on line 1
+[06-Jan-2014 18:26:01 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 125
+[06-Jan-2014 18:26:11 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 105
+[28-Jan-2014 12:29:24 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[28-Jan-2014 12:31:40 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[28-Jan-2014 12:31:48 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[28-Jan-2014 12:32:01 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 85
+[28-Jan-2014 12:32:05 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 105
+[28-Jan-2014 12:32:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wwwlove/public_html/tracker/tracking-statistics.php on line 23
+[28-Jan-2014 12:32:16 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[28-Jan-2014 12:34:24 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[28-Jan-2014 12:42:27 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[28-Jan-2014 12:42:39 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[05-Feb-2014 00:34:14 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[02-Mar-2014 19:04:54 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[20-Mar-2014 11:42:24 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 105
+[10-May-2014 18:05:30 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[13-Jun-2014 19:01:32 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[13-Jun-2014 19:02:04 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[13-Jun-2014 19:04:45 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[13-Jun-2014 19:05:10 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[13-Jun-2014 19:05:18 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94
+[17-Jun-2014 14:22:10 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, boolean given in /home/wwwlove/public_html/tracker/statistics.xml.php on line 94

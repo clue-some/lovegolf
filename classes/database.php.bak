@@ -1,0 +1,179 @@
+<?php
+
+class DatabaseException extends Exception {
+
+	private $mysql_error;
+	private $sql;
+
+	function __construct($message, $mysql_error = false, $sql = false) {
+
+		$this->mysql_error = $mysql_error;
+		$this->sql = $sql;
+
+		parent::__construct($message, '1');
+	}
+
+	function getMysqlError() {
+		return $this->mysql_error;
+	}
+
+	function getSQL() {
+		return $this->sql;
+	}
+
+}
+
+/**
+ * Generic Database Class for PHP/MySQL Database Connectivity
+ * @author Chris Wheeler
+ * @throws DatabaseException
+ *
+ */
+class Database {
+
+	private $link; // Database connection
+
+	public $message;
+	public $insertid;
+	public $sql;
+	public $mysql_error;
+	public $affectedrows;
+
+	public $numrows;
+
+	/* For Pagination */
+	public $numpages;
+	public $pagelength;
+	public $currentpage = 1;
+
+	/**
+    * Establishes connection to the database
+    *
+    * @return null
+    */
+	function __construct() {
+		if (!$this->link = @mysql_connect(MYSQL_HOSTNAME, MYSQL_USERNAME, MYSQL_PASSWORD)) {
+			throw new DatabaseException('Unable to connect to the database server.', mysql_error());
+		}
+		if (!@mysql_select_db(MYSQL_DATABASE)) {
+			throw new DatabaseException('Unable to open the required database.', mysql_error());
+		}
+	}
+
+	/**
+    * Executes SQL queries
+    *
+    * @param string $sql
+    * @return array
+    */
+	function query($sql) {
+		$this->sql = $sql;
+		if ($dbresult = @mysql_query($sql)) {
+			$this->numrows = @mysql_num_rows($dbresult);
+			while ($row = @mysql_fetch_array($dbresult, MYSQL_ASSOC)) {
+				foreach($row as $k => $v) {
+					$row[$k] = stripslashes($v);
+				}
+				$rows[] = $row;
+			}
+			if ($rows) {
+				return $this->stripslashes_r($rows);
+			}
+			return false;
+		} else {
+			throw new DatabaseException('Database Error. (Query) ' . mysql_error() . ' : ' . $sql, mysql_error(), $sql);
+		}
+	}
+
+	function paginationQuery($sql, $offset = 0, $pagelength = 20) {
+		$this->pagelength = $pagelength;
+		$results = $this->query($sql);
+		$total = $this->numrows;
+		$this->numpages = ceil($this->numrows / $this->pagelength);
+		return ($results ? array_slice($results, $offset, $this->pagelength) : 0);
+	}
+
+	function getPages($currentpage = 1) {
+		$this->currentpage = ($currentpage ? $currentpage : 1);
+		$enabled = 0;
+		if ($this->currentpage > 1) {
+			$enabled = 1;
+		}
+		$pages[] = array(
+		'number' => ($this->currentpage - 1),
+		'name' => '<',
+		'offset' => ($this->currentpage - 2) * $this->pagelength,
+		'enabled' => $enabled
+		);
+		$i = 1;
+		for ($p = 0; $p < $this->numpages; $p++) {
+			$enabled = 0;
+			if ($this->currentpage <> ($p + 1)) {
+				$enabled = 1;
+			}
+			$pages[] = array(
+			'number' => $i,
+			'name' => $i,
+			'offset' => $p * $this->pagelength,
+			'enabled' => $enabled
+			);
+			$i++;
+		}
+		$enabled = 0;
+		if ($this->currentpage < $this->numpages) {
+			$enabled = 1;
+		}
+		$pages[] = array(
+		'number' => ($this->currentpage + 1),
+		'name' => '>',
+		'offset' => ($this->currentpage) * $this->pagelength,
+		'enabled' => $enabled
+		);
+		return $pages;
+	}
+	
+	/**
+    * Inserts a record 
+    *
+    * @param string $sql
+    * @return boolean
+    */
+	function insert($sql) {
+		$this->sql = $sql;
+		if (@mysql_query($sql)) {
+			$this->insertid = @mysql_insert_id();
+			return $this->insertid;
+		} else {
+			throw new DatabaseException('Database Error. (Insert) ' . mysql_error() . ' : ' . $sql, mysql_error(), $sql);
+		}
+	}
+
+	/**
+    * Updates a record or multiple records
+    *
+    * @param string $sql
+    * @return boolean
+    */
+	function update($sql) {
+		$this->sql = $sql;
+		if (@mysql_query($sql) && !mysql_error()) {
+			return 1;
+		} else {
+			throw new DatabaseException('Database Error. (Update) ' . mysql_error() . ' : ' . $sql, mysql_error(), $sql);
+		}
+	}
+
+	function stripslashes_r($array) {
+		$array = is_array($array) ? array_map(array(&$this, 'stripslashes_r'), $array) : stripslashes($array);
+		return $array;
+	}
+
+	function getSQL() {
+		return $this->sql;
+	}
+
+	function __destruct() {
+		$this->mysql_error = mysql_error();
+	}
+
+}

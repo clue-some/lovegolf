@@ -1,0 +1,60 @@
+/* styles for IE 7 */
+.rightBox input.formCheck, .loginBoxArea input.formCheck  {
+	margin: -3px 0px 7px 0px;
+}
+.addScorecardDetails input.formButton {
+	padding: 2px 0px;
+}
+.regFormLeft p {
+	margin-top: 2px;
+}
+#TB_window {
+	top:25%;
+}
+#trackingMenu .current a {
+	padding: 3px 10px 2px 10px;
+}
+#trackingMenu .firstCurrent a {
+	padding: 3px 10px 2px 10px;
+}
+#trackingMenu a:active,
+#trackingMenu a:focus,
+#trackingMenu a:hover {
+	padding: 3px 10px 2px 10px;
+}
+.loginBoxArea input.field, .registerBoxArea input.field {
+	padding: 6px 9px 7px 9px;
+}
+table.checkout td .input-box {
+	padding: 7px 9px 9px 9px;
+}
+.registerBoxArea input {
+	margin-top: 33px;
+}
+.menu li {
+	display: inline;
+}
+.menuPop {
+	margin-left: -605px;
+}
+.safeSecureArea {
+	padding-top: 10px;	
+}
+.ovSBTitle {
+	margin-top: 1px;
+}
+.addRoundHolder input.fieldShort {
+	border: 1px #fff solid;
+}
+.addRoundHolder select {
+	border: 1px #fff solid;
+}
+.scEntryForm {
+	width: 25px;
+	margin: 1px 0px;
+}
+.fullMainArea {
+	width: 960px;
+	padding: 0px;
+	margin: 13px 10px 13px 10px;
+}

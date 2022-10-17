@@ -1,0 +1,139 @@
+/* styles for IE 6 & below */
+.topBarHolder {
+	height: 20px;
+}
+.menuHolder {
+	width: 740px;
+}
+.menuAccountArea {
+	width: 230px;
+}
+.titleBar {
+	height: 31px;
+}
+.leftArea {
+	margin: 13px 20px 10px 0px;
+	padding-left: 10px;
+}
+.leftBox input.formCheck, .loginBoxArea input.formCheck {
+	margin: -4px 0px 7px 0px;
+}
+.addScorecardArea input.formButton {
+	margin-bottom: 0px;
+	padding: 0px;
+}
+.checkBoxFloat {
+	float: left;
+	margin-right: 0px;
+}
+.leftBox span span {
+	font-size: 1.1em;
+}
+.leftBox span {
+	font-size: 1em;
+}
+#noPadding.leftBox {
+	padding: 0px;
+}
+#noBorder.leftBoxSub {
+	padding: 7px 9px 4px 9px;
+	border-bottom: none;
+}
+#noBorder2.leftBoxProfileSub {
+	padding: 6px;
+	border-bottom: none;
+}
+.lbHandicapBox {
+	height: 75px;
+}
+.footerArea {
+	height: 29px;
+}
+.clubOffersTitleBkg {
+	height: 28px;
+}
+#noMarg.oscProductThumbArea {
+	margin: 6px 0px 0px 0px;
+}
+#trackingMenu .current a {
+	padding: 3px 10px 2px 10px;
+}
+#trackingMenu .firstCurrent a {
+	padding: 3px 10px 2px 10px;
+}
+#trackingMenu a:active,
+#trackingMenu a:focus,
+#trackingMenu a:hover {
+	padding: 3px 10px 2px 10px;
+}
+.loginBoxArea input.field, .registerBoxArea input.field {
+	padding: 6px 9px 7px 9px;
+}
+.registerBoxArea input {
+	margin-top: 33px;
+}
+.loginBoxArea, .registerBoxArea {
+	margin: 124px 30px 0px 31px;
+}
+.registerBoxArea {
+	margin: 124px 0px 0px 36px;
+}
+.leftTitleBar {
+	height: 17px;
+	width: 192px;
+}
+/*
+img, div { 
+	behavior: url(/images/iepngfix.htc);
+}
+input { 
+	behavior: url(/images/iepngfix.htc);
+	cursor: pointer;
+}
+input.field {
+	behavior: url(/images/iepngfix.htc);
+}
+*/
+#menu li a {
+	margin-bottom: -7px;
+}
+.pos1a {
+	width: 978px;
+	margin-left: -252px;
+}
+#menu .shop div {
+	margin-left: -252px;
+}
+#menu :hover div dt, #menu :hover div dd {
+	padding: 0px 5px;
+}
+#menu :hover div {
+	display: block;
+	position: absolute;
+	margin-top: 6px;
+}
+#menu li a.select, #menu li a.selecta {
+	padding-bottom: 3px;
+}
+.oscPFContent {
+	height: 190px;
+}
+.loginBoxArea#regForm {
+	margin: 95px 30px 0px 0px; 
+	padding-left: 62px;
+}
+.registerBoxArea#regForm {
+	margin: -19px 0px 0px 36px;
+}
+.safeSecureArea {
+	padding-top: 10px;	
+}
+.loginBoxArea#stdForm {
+	margin: 75px 30px 0px 31px;
+}
+.ovSBTitle {
+	margin-top: 1px;
+}
+.loginRegisterHolder {
+	height: 498px;
+}

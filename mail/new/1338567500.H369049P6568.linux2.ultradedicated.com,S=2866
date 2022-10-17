@@ -1,0 +1,75 @@
+Return-path: <>
+Envelope-to: wwwlove@linux2.ultradedicated.com
+Delivery-date: Fri, 01 Jun 2012 17:18:20 +0100
+Received: from mailnull by linux2.ultradedicated.com with local (Exim 4.77)
+	id 1SaUYO-0001hr-3k
+	for wwwlove@linux2.ultradedicated.com; Fri, 01 Jun 2012 17:18:20 +0100
+X-Failed-Recipients: derek-testing@richerdesigns.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@linux2.ultradedicated.com>
+To: wwwlove@linux2.ultradedicated.com
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1SaUYO-0001hr-3k@linux2.ultradedicated.com>
+Date: Fri, 01 Jun 2012 17:18:20 +0100
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  derek-testing@richerdesigns.com
+    SMTP error from remote mail server after RCPT TO:<derek-testing@richerdesigns.com>:
+    host mx1.gridhost.co.uk [91.208.99.71]: 550 Unrouteable address
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <wwwlove@linux2.ultradedicated.com>
+Received: from wwwlove by linux2.ultradedicated.com with local (Exim 4.77)
+	(envelope-from <wwwlove@linux2.ultradedicated.com>)
+	id 1SaUYN-0001hj-OT
+	for derek-testing@richerdesigns.com; Fri, 01 Jun 2012 17:18:19 +0100
+To: "Geoff Wayne" <derek-testing@richerdesigns.com>
+Subject: Order Update
+From: "Love Golf" <shop@lovegolf.co.uk>
+MIME-Version: 1.0
+X-Mailer: osCommerce
+Content-Type: multipart/alternative;
+	boundary="=_2294b944e4ad3bff825273808c9b2907"
+Message-Id: <E1SaUYN-0001hj-OT@linux2.ultradedicated.com>
+Date: Fri, 01 Jun 2012 17:18:19 +0100
+
+--=_2294b944e4ad3bff825273808c9b2907
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+Love Golf
+------------------------------------------------------
+Order Number: 128659
+Detailed Invoice: http://www.lovegolf.co.uk/shop/account_history_info.php?order_id=128659
+Date Ordered: Friday 01 June, 2012
+
+The comments for your order are
+
+DEREK TESTING PLEASE IGNORE
+
+
+
+Your order has been updated to the following status.
+
+New status: Cancelled
+
+Please reply to this email if you have any questions.
+
+--=_2294b944e4ad3bff825273808c9b2907
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Love Golf<br>------------------------------------------------------<br>Orde=
+r Number: 128659<br>Detailed Invoice: http://www.lovegolf.co.uk/shop/accoun=
+t_history_info.php?order_id=3D128659<br>Date Ordered: Friday 01 June, 2012<=
+br><br>The comments for your order are<br><br>DEREK TESTING PLEASE IGNORE<b=
+r><br><br><br>Your order has been updated to the following status.<br><br>N=
+ew status: Cancelled<br><br>Please reply to this email if you have any ques=
+tions.<br>
+--=_2294b944e4ad3bff825273808c9b2907--
+

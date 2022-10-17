@@ -1,0 +1,37 @@
+Return-path: <lee@tonicbox.co.uk>
+Envelope-to: info@lovegolf.co.uk
+Delivery-date: Sun, 11 Apr 2010 11:11:39 +0100
+Received: from wwwlove by linux2.ultradedicated.com with local (Exim 4.69)
+	(envelope-from <lee@tonicbox.co.uk>)
+	id 1O0u8h-0006lb-CV
+	for info@lovegolf.co.uk; Sun, 11 Apr 2010 11:11:39 +0100
+To: info@lovegolf.co.uk
+Subject: Love Golf - New User
+From: lee@tonicbox.co.uk  
+Reply-To: lee@tonicbox.co.uk 
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="MIME_BOUNDRY_YLU"
+X-Sender: lee@tonicbox.co.uk
+X-Mailer: PHP 5.3.2
+X-Priority: 3
+Message-Id: <E1O0u8h-0006lb-CV@linux2.ultradedicated.com>
+Date: Sun, 11 Apr 2010 11:11:39 +0100
+
+This is a multi-part message in MIME format.
+
+--MIME_BOUNDRY_YLU
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+<h1>Welcome Email</h1>
+
+<h2>Name: Lee Rennie</h2>
+
+<h2>Username: lee</h2>
+
+<p>Password: j14w0fb5</p>
+
+<p>Link: http://www.lovegolf.co.uk/</p>
+
+<p>- Love Golf</p>
+

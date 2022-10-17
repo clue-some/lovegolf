@@ -1,0 +1,9 @@
+<IfModule rewrite_module>
+RewriteEngine On
+
+RewriteRule ^(.+)/$ /tracker/$1.php [NC,L]
+
+# Return 404 if original request is /foo/bar.php
+RewriteCond %{THE_REQUEST} "^[^ ]* .*?\.php[? ].*$" [NC]
+RewriteRule .* - [L,R=404]
+</IfModule>

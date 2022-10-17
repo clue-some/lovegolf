@@ -1,0 +1,32 @@
+/* for IE only */
+.loginFormCheck {
+	margin: -1px -3px 7px -4px;
+}
+.registerButton {
+	margin-bottom: 77px;
+}
+.addScorecardNextFloat {
+	margin-top: 0px;
+	float: right;
+}
+.scCommentsForm {
+	width: 561px;
+}
+.loginBoxArea, .registerBoxArea {
+	height: 275px;
+}
+.scEntryForm {
+	margin: 0px;
+}
+.formField select {
+	margin-left: 0px;
+	width: 201px;
+}
+.formField select.digit2 {
+	margin-left: 0px;
+}
+.regFormItemNone {
+	background: url('/tracker/wl/lovegolf/images/im-reg-form-item-none-bkg.gif') no-repeat 0 0;
+	padding: 10px 2px 10px 10px;
+	height: 28px;
+}

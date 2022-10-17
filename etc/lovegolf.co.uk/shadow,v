@@ -1,0 +1,40 @@
+head	1.2;
+access;
+symbols;
+locks
+	wwwlove:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2009.09.23.11.27.38;	author wwwlove;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2009.09.23.11.26.50;	author wwwlove;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@lee:$1$2LAx9i2B$WvAyxSie2zd5bZZfeUhWV.:14510::::::
+info:$1$rPQ75e1m$bORF9qtWK48Ao/sAPJoIq/:14510::::::
+@
+
+
+1.1
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d2 1
+@

@@ -1,0 +1,397 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml2/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title> Stu Nicholls | CSSplay | A css only dropdown menu</title>
+<meta name="Author" content="Stu Nicholls" />
+<meta name="Keywords" content="cssplay, css, play, Cascading, Style, Sheets, opacity, layouts, navigation, menus, experiments,demonstrations, photo, photograph, gallery, slide, slideshow, picture, drop, down, pull, up, fly, out, free" />
+<meta name="Description" content="CSS - Cutting edge Cascading Style Sheets. Experiments in CSS" />
+<meta name="verify-v1" content="n3Dpx4NklZjg5p/Tq7h1q+Oj6Ml83crtkO/PwepVQ6Y=" />
+<meta http-equiv="imagetoolbar" content="no" />
+<link rel="meta" href="http://www.cssplay.co.uk/labels.rdf" type="application/rdf+xml" title="ICRA labels" />
+<meta http-equiv="pics-Label" content='(pics-1.1 "http://www.icra.org/pics/vocabularyv03/" l gen true for "http://cssplay.co.uk" r (n 0 s 0 v 0 l 0 oa 0 ob 0 oc 0 od 0 oe 0 of 0 og 0 oh 0 c 0)  gen true for "http://www.cssplay.co.uk" r (n 0 s 0 v 0 l 0 oa 0 ob 0 oc 0 od 0 oe 0 of 0 og 0 oh 0 c 0))' />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.cssplay.co.uk/feed.xml" />
+<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+<link rel="icon" href="../favicon.ico" type="image/ico" />
+<link rel="stylesheet" media="all" type="text/css" href="../css/css_play.css" />
+<link rel="stylesheet" media="all" type="text/css" href="../css/menus.css" />
+
+<style type="text/css">
+#info {position:relative;}
+p.bold {padding-left:15px; color:#c00;}
+a.linkup {position:relative;}
+a.buttonup {position:absolute; top:200px; left:650px; border:0;}
+a.buttonup img {border:0;}
+.gleft {float:left; margin:25px 0 10px 0;}
+.gright {float:right; margin:25px 5px 10px 0;}
+.grc {margin:20px 0 0 10px;}
+
+
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/final_drop.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+
+.menu {width:745px; height:32px; font-size:0.85em; position:relative; z-index:100;border-right:1px solid #000;}
+/* hack to correct IE5.5 faulty box model */
+* html .menu {width:746px; w\idth:745px;}
+/* remove all the bullets, borders and padding from the default list styling */
+.menu ul {padding:0;margin:0;list-style-type:none;}
+.menu ul ul {width:149px;}
+/* float the list to make it horizontal and a relative positon so that you can control the dropdown menu positon */
+.menu li {float:left;width:149px;position:relative;}
+/* style the links for the top level */
+.menu a, .menu a:visited {display:block;font-size:11px;text-decoration:none; color:#fff; width:138px; height:30px; border:1px solid #000; border-width:1px 0 1px 1px; background:#758279; padding-left:10px; line-height:29px;}
+/* a hack so that IE5.5 faulty box model is corrected */
+* html .menu a, * html .menu a:visited {width:149px; w\idth:138px;}
+
+/* style the second level background */
+.menu ul ul a.drop, .menu ul ul a.drop:visited {background:#d4d8bd url(http://www.cssplay.co.uk/graphics/drop.gif) bottom right no-repeat;}
+/* style the second level hover */
+.menu ul ul a.drop:hover{background:#c9ba65 url(http://www.cssplay.co.uk/graphics/drop.gif) bottom right no-repeat;}
+.menu ul ul :hover > a.drop {background:#c9ba65 url(http://www.cssplay.co.uk/graphics/drop.gif) bottom right no-repeat;}
+/* style the third level background */
+.menu ul ul ul a, .menu ul ul ul a:visited {background:#e2dfa8;}
+/* style the third level hover */
+.menu ul ul ul a:hover {background:#b2ab9b;}
+
+
+/* hide the sub levels and give them a positon absolute so that they take up no room */
+.menu ul ul {visibility:hidden;position:absolute;height:0;top:31px;left:0; width:149px;border-top:1px solid #000;}
+/* another hack for IE5.5 */
+* html .menu ul ul {top:30px;t\op:31px;}
+
+/* position the third level flyout menu */
+.menu ul ul ul{left:149px; top:-1px; width:149px;}
+
+/* position the third level flyout menu for a left flyout */
+.menu ul ul ul.left {left:-149px;}
+
+/* style the table so that it takes no ppart in the layout - required for IE to work */
+.menu table {position:absolute; top:0; left:0; border-collapse:collapse;;}
+
+/* style the second level links */
+.menu ul ul a, .menu ul ul a:visited {background:#d4d8bd; color:#000; height:auto; line-height:1em; padding:5px 10px; width:128px;border-width:0 1px 1px 1px;}
+/* yet another hack for IE5.5 */
+* html .menu ul ul a, * html .menu ul ul a:visited {width:150px;w\idth:128px;}
+
+/* style the top level hover */
+.menu a:hover, .menu ul ul a:hover{color:#fff; background:#949e7c;}
+.menu :hover > a, .menu ul ul :hover > a {color:#fff;background:#949e7c;}
+
+/* make the second level visible when hover on first level list OR link */
+.menu ul li:hover ul,
+.menu ul a:hover ul{visibility:visible; }
+/* keep the third level hidden when you hover on first level list OR link */
+.menu ul :hover ul ul{visibility:hidden;}
+/* make the third level visible when you hover over second level list OR link */
+.menu ul :hover ul :hover ul{ visibility:visible;}
+
+</style>
+
+</head>
+
+<body id="www-cssplay-co-uk">
+	<div id="wrapper">
+	<a href="#content" class="hiddenfromview" accesskey="X" title="skip to content">skip to content</a>
+		<div id="header">
+		<div id="logo">
+		
+			<h1><a accesskey="1" href="../index" title="Home Page">CSS</a></h1>
+			<h2><a accesskey="1" href="../index" title="Home Page"><i>p</i>lay</a></h2>
+			<h3>Experiments with Cascading Style Sheets</h3>
+
+			</div> <!-- end of logo -->
+			<div id="toplink">
+			<ul>
+			<li><a accesskey="Q" href="../faqs" title="Frequently Asked Questions">FAQs</a></li>
+			<li><a accesskey="N" href="../w3c/contact" title="Contact us">CONTACT ME</a></li><li><a accesskey="V" href="../w3c/privacy" title="Privacy Policy">PRIVACY POLICY</a></li>			<li><a accesskey="R" href="http://www.cssplay.co.uk/feed.xml" title="RSS2.0 feed">RSS 2.0</a></li>
+			<li><a accesskey="S" href="../sitemap" title="Site map">SITE MAP</a></li>
+			<li><a accesskey="K" href="../accesskeys" title="Accesskeys">ACCESSKEYS</a></li>
+			<li><a accesskey="P" href="../support" title="Support">SUPPORT</a></li>
+			</ul>
+			</div>
+			<div id="midlink">
+			<ul id="main_menu">
+			<li><a accesskey="A" href="../menu/">Demos</a></li><li><a class="chosen" accesskey="M" href="../menus/">Menus</a></li><li><a accesskey="Y" href="../layouts/">Layouts</a></li><li><a accesskey="B" href="../boxes/">Boxes</a></li><li><a accesskey="Z" href="../mozilla/">Mozilla</a></li><li><a accesskey="E" href="../ie/">Explorer</a></li><li><a accesskey="O" href="../opacity/">Opacity</a></li>			</ul>
+			</div>
+			<div id="botlink">
+			<ul id="sub_menu">
+
+			<li><a accesskey="H" href="../index">HOME</a></li>
+			<li><a href="index.html" accesskey="F" title="First - Section List">LIST</a></li><li><a href="three-up-two-down.html" accesskey="P" title="Previous">PREVIOUS</a></li><li><a href="final_drop2.html" accesskey="N" title="Next">NEXT</a></li><li><a href="vertical_slide.html" accesskey="L" title="Last">LAST</a></li>			<li><a href="http://www.cssplay.co.uk/comments/comments.php?comment_id=ultimate dropdown menu"  accesskey="C" title="Comments for this page">COMMENTS</a></li>
+			<li>TUTORIAL</li>			</ul>
+			</div> <!-- end of botlink -->
+		<div id="search">
+		<form id="seek" method="get" action="http://www.google.co.uk/custom">
+		<p><label id="formlab" title="Search" for="searchtext">&nbsp;</label><br />
+		<a href="http://www.google.com/">
+		<img src="http://www.google.com/logos/Logo_25wht.gif" alt="Google" title="Google" width="75" height="32" /></a>
+
+		<input type="hidden" name="domains" value="www.cssplay.co.uk" />
+		<input tabindex="27" id="searchtext" alt="Search Text" type="text" name="q" size="25" maxlength="255" value=" enter search text" />
+		<input tabindex="28" type="submit" name="sa" value="Find" />
+		<br />
+		<input type="radio" tabindex="29" alt="sitesearch" name="sitesearch" id="sitesearch" value="www.cssplay.co.uk" checked="checked" />
+		<label for="sitesearch">CSSplay</label>
+		<input type="radio" tabindex="30" alt="websearch" name="sitesearch" id="websearch" value="" />
+		<label for="websearch">The Web</label>
+		<input type="hidden" name="client" value="pub-6651950180071236" />
+		<input type="hidden" name="forid" value="1" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="hidden" name="oe" value="UTF-8" />
+		<input type="hidden" name="safe" value="active" />
+		<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;LH:100;LW:100;L:http://www.cssplay.co.uk/google_play.gif;S:http://www.cssplay.co.uk;LP:1;FORID:1;" />
+		<input type="hidden" name="hl" value="en" />
+		</p>
+		</form>
+		</div> <!-- end of search -->
+
+		</div> <!-- end of header -->
+<div id="showcase">
+
+<div id="info">
+
+<h2>The ULTIMATE CSS only drop-down menu</h2>
+<h3>7th April 2006</h3>
+<h3>Updated 26th June 2006, 22nd September 2006 &amp; 29th September 2006</h3>
+<h3>Updated 5th July 2007 to add 1px black border around menu items</h3>
+<p class="bold">But now there are more in the series - <a href="http://www.cssplay.co.uk/menus/simple_vertical.html">DROP-DOWN</a> and <a href="http://www.cssplay.co.uk/menus/flyout_4level.html">FLY-OUT</a>.</h3>
+
+<div class="menu">
+
+<ul>
+<li><a href="../menu/index.html">DEMOS<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="../menu/zero_dollars.html" title="The zero dollar ads page">zero dollars advertising page</a></li>
+	<li><a href="../menu/embed.html" title="Wrapping text around images">wrapping text around images</a></li>
+	<li><a href="../menu/form.html" title="Styling forms">styled form</a></li>
+	<li><a href="../menu/nodots.html" title="Removing active/focus borders">active focus</a></li>
+	<li><a class="drop" href="../menu/hover_click.html" title="Hover/click with no active/focus borders">hover/click with no borders<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+		<ul>
+			<li><a href="../menu/form.html" title="Styling forms">styled form</a></li>
+			<li><a href="../menu/nodots.html" title="Removing active/focus borders">removing active/focus borders</a></li>
+			<li><a href="../menu/hover_click.html" title="Hover/click with no active/focus borders">hover/click</a></li>
+		</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li>
+	<li><a class="drop" href="../menu/shadow_boxing.html" title="Multi-position drop shadow">shadow boxing<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+		<ul>
+			<li><a href="../menu/form.html" title="Styling forms">styled form</a></li>
+			<li><a href="../menu/nodots.html" title="Removing active/focus borders">removing active/focus borders</a></li>
+			<li><a href="../menu/hover_click.html" title="Hover/click with no active/focus borders">hover/click</a></li>
+		</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li>
+	<li><a class="drop" href="../menu/old_master.html" title="Image Map for detailed information">image map for detailed information<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+		<ul>
+			<li><a href="../menu/form.html" title="Styling forms">styled form</a></li>
+			<li><a href="../menu/nodots.html" title="Removing active/focus borders">removing active/focus borders</a></li>
+			<li><a href="../menu/hover_click.html" title="Hover/click with no active/focus borders">hover/click</a></li>
+		</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li>
+	<li><a href="../menu/bodies.html" title="fun with background images">fun with background images</a></li>
+	<li><a href="../menu/fade_scroll.html" title="fade-out scrolling">fade scrolling</a></li>
+	<li><a href="../menu/em_images.html" title="em size images compared">em image sizes compared</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li><a href="../boxes/index.html">BOXES<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="spies.html" title="a coded list of spies">a coded list of spies</a></li>
+	<li><a href="vertical.html" title="a horizontal vertical menu">vertical menu</a></li>
+	<li><a href="expand.html" title="an enlarging unordered list">enlarging unordered list</a></li>
+	<li><a href="enlarge.html" title="an unordered list with link images">link images</a></li>
+	<li><a href="cross.html" title="non-rectangular links">non-rectangular</a></li>
+	<li><a href="jigsaw.html" title="jigsaw links">jigsaw links</a></li>
+	<li><a href="circles.html" title="circular links">circular links</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li><a href="../mozilla/index.html">MOZILLA<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="../mozilla/dropdown.html" title="A drop down menu">drop down menu</a></li>
+	<li><a href="../mozilla/cascade.html" title="A cascading menu">cascading menu</a></li>
+	<li><a href="../mozilla/content.html" title="Using content:">content:</a></li>
+	<li><a href="../mozilla/moxbox.html" title=":hover applied to a div">mozzie box</a></li>
+	<li><a href="../mozilla/rainbow.html" title="I can build a rainbow">I can build a rainbow with transparent borders</a></li>
+	<li><a href="../mozilla/snooker.html" title="Snooker cue">a snooker cue using border art</a></li>
+	<li><a href="../mozilla/target.html" title="Target Practise">target practise</a></li>
+	<li><a href="../mozilla/splittext.html" title="Two tone headings">two tone headings</a></li>
+	<li><a href="../mozilla/shadow_text.html" title="Shadow text">shadow text</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li><a href="../ie/index.html">EXPLORER</a></li>
+<li><a href="../opacity/index.html">OPACITY<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="../opacity/colours.html" title="colour wheel">a colour wheel using opaque colours</a></li>
+	<li><a href="../opacity/picturemenu.html" title="a menu using opacity">a menu using opacity</a></li>
+	<li><a href="../opacity/png.html" title="partial opacity">partial opacity</a></li>
+	<li><a href="../opacity/png2.html" title="partial opacity II">partial opacity II</a></li>
+	<li><a class="drop" href="../menu/hover_click.html" title="Hover/click with no active/focus borders">HOVER/CLICK<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+		<ul class="left">
+			<li><a href="../menu/form.html" title="Styling forms">styled form</a></li>
+			<li><a href="../menu/nodots.html" title="Removing active/focus borders">removing active/focus borders</a></li>
+			<li><a href="../menu/hover_click.html" title="Hover/click with no active/focus borders">hover/click</a></li>
+		</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+</ul>
+
+</div>
+<p>Just a little bit of text under the menu to demonstrate that links in this area will work with the drop down menu.<br />This is a link to a <a class="linkup" href="../menu/form.html" title="Styling forms">styled form</a> which is positioned relative. This button is positioned absolute-></p>
+<a class="buttonup" href="../index.html"><img src="../graphics/button.gif" alt="CSSplay button" title="CSSplay button" /></a>
+
+<div id="adsie">
+<script type="text/javascript">
+google_ad_client = "pub-6651950180071236";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text_image";
+//2007-01-26: Top banner
+google_ad_channel ="1786077217";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "008000";
+google_color_url = "008000";
+google_color_text = "000000";
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</div>
+
+</div> <!-- end of info -->
+<div id="info_right">
+
+
+</div>
+<br class="clear" />
+</div> <!-- end of showcase -->
+<div id="content">
+
+<div id="left_column">
+<h3>Information</h3>
+<div class="g_right">
+<script type="text/javascript"><!--
+google_ad_client = "pub-6651950180071236";
+google_ad_width = 250;
+google_ad_height = 250;
+google_ad_format = "250x250_as";
+google_ad_type = "text_image";
+google_ad_channel = "";
+google_color_border = "6f9c6f";
+google_color_bg = "FFFFFF";
+google_color_link = "008000";
+google_color_url = "008000";
+google_color_text = "000000";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+<p>A bit of a rewrite to 'hone' this to a bare minimum. I have now removed the double top level links from my previous examples and replaced them with just one link that is understood by IE6 and below to be a nested link and by non-IE browsers to be a standalone link.</p>
+<p>How? Well it is possible to make Internet Explorer's conditional comments work for other browsers. In other words we can target non IE browsers with IE conditional comments. Fantastic!!</p>
+<p>So non-IE browsers see the closing &lt;/a&gt; on the top level links and IE6 and below see the the closing &lt;/a&gt; on the other side of the table.</p>
+
+<p>This works in IE5.5, IE6, hopefully IE7 (confirmation anyone?), Firefox, Opera, Netscape 8 and Mac Firefox 1.5 and Safari though not Mac IE5.x.</p>
+<p>I have added additional features such as multiple line text and it stays in shape when the text is resized (although I have used a fixed width for this demo).</p>
+<p>With this method I think I have finally reached the limits of simplification.</p>
+<p>There is still the problem of drop-down under and object in some browsers but I think that this should be treated as a browser bug.</p>
+<p>NOTE: If you have arrived here from 'www.grc.com/menu2/invitro.htm' then I should point out that their menu is almost a direct copy of several of my menus. The basis of their menu is the same conditional comments that I have developed for my menus as early as March 2006. One of which is a non-standard conditional comment to target IE7 and all non-IE browsers.</p>
+<h3>Cascading Style Sheet</h3>
+<p class="date">22nd September 2006</p>
+<p>Updated to incorporate my latest findings. The tables required for IE5.5 and IE6 have been moved into conditional comments so they play no part in other browsers. The dual styles for IE5.5/IE6 and all other browsers has now been combined by using just :hover in place of a:hover AND li:hover. Finally the hover state/path followed through the menu is retained in all browsers</p>
+<p>Hope you like the improvements.</p>
+<p class="date">29th September 2006</p>
+<p>An obscure IE6 bug has now been fixed with a restyle of this menu. After a top level 'link' is clicked the drop down menu sometimes did not drop down.</p> 
+<h3>The xhtml</h3>
+<p>The xhtml code for the ultimate menu can be seen <a href="css/final_drop.txt">here in text format</a>.</p>
+<p>You will see that conditional comments have been used to hold the IE5.5 and IE6 specific version of the menu which used nested tables with nested links. The other browsers will not see the nested links and instead will use the normal nested unordered lists.</p>
+<p>Please note that you will also need a standards compliant !doctype for this menu to work correctly.</p>
+<div id="smalladsie">
+<script type="text/javascript"><!--
+google_ad_client = "pub-6651950180071236";
+google_ad_width = 468;
+google_ad_height = 60;
+google_ad_format = "468x60_as";
+google_ad_type = "text_image";
+google_ad_channel = "";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "008000";
+google_color_url = "008000";
+google_color_text = "000000";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+<h3>Copyright</h3><p>Because of all the time and effort spent in producing this demonstration I would ask that you respect my copyright.</p><p>1. If you are using this on a personal web site then please add a comment and a link back to <b class="css">CSS</b><span class="play">play</span>. I would also appreciate a donation to the '<a href="../support.html">Support <b class="css">CSS</b><span class="play">play</span></a>' fund.</p><p>2. If you are using this on a commercial web site then please email me asking for permission - stu{at}cssplay.co.uk and again a donation to the '<a href="../support.html">Support <b class="css">CSS</b><span class="play">play</span></a>' fund would be appreciated.</p>
+
+
+<br />
+</div>
+
+
+<div id="right_column">
+
+<h3>Sponsors</h3>
+<ul class="advertisement">
+<li><a href="http://www.completemyspace.com/">Free layouts and more - Myspace</a></li><li><a href="http://www.all-phuket.com/">Complete travelguide to Phuket</a></li><li><a href="http://thehotfix.net/">The Hotfix forum for windows</a></li><li><a href=" http://www.dustworld.net/">UK Game Server Hosting</a></li><li><a title="&#231;i&#231;ek" href="http://www.umut.biz">&#231;i&#231;ek</a></li><li class="spacer"><a href="http://www.iphpbb.com/">Gratis Forum</a><br /><span class="text">Get a free phpbb Forum</span></li><li class="spacer"><a href="http://www.hostcolorservers.com/">Managed Hosting</a><br /><span class="text">managed Servers at only $169 / month</span></li><li class="spacer"><a href="http://www.ahosting.biz/">web hosting, dedicated servers</a><br /><span class="text">web reseller, managed servers</span></li><li class="spacer"><a href="http://www.farmore.co.uk/">Web design Scotland</a><br /><span class="text">Search Engine Optimisation</span></li><li class="spacer"><a href="http://www.lyricspy.com/">Free Lyrics</a><br /><span class="text">Daily updated free lyrics database</span></li><li class="spacer"><a href="http://www.dogsite.co.uk/">www.dogsite.co.uk</a><br /><span class="text">The Dogsite for the UK</span></li><li class="spacer"><a href="http://www.dawhb.com/">Daw Web Hosting Blog</a><br /><span class="text">Ideas, Comments, Trends &amp; Events</span></li><li class="spacer"><a href="http://www.downloadtube.com/">Software Downloads, Dhtml Scripts</a> <span class="text">Dynamic Html, Software Downloads</span></li><li class="spacer"><a href="http://www.adido-solutions.com/">Web design in Dorset</a><br /><span class="text">Bournmouth based web design agency</span></li><li class="spacer"><a href="http://www.hostcolor.com/?refid=0ad4f9e13e81798fea">Host Color</a><br /><span class="text">Web Hosting for 30 Websites</span></li><li class="spacer"><a href="http://www.best10webhosting.com/">Business Web Hosting</a><br /><span class="text">Hosting, Design, Tutorials, Templates</span></li><li class="spacer"><a href="http://shopfitter.com/">pay as you go e-commerce</a><br /><span class="text">Build your own SEO friendly webshop</span></li><li class="spacer"><a href="http://www.findmysoft.com/">Software Download</a><br /><span class="text">Free software download directory</span></li><li class="spacer"><a href="http://www.handymoves.co.uk/">man and van removals</a><br /><span class="text">Handy Moves</span></li></ul>
+<h3>Site Advertisements</h3>
+<ul class="advertisement">
+<li><a href="../ads_page">Advertise at <b class="css">CSS</b><span class="play">play</span></a></li>
+<li><a href="../favicon_ads">Favicon Ads at <b class="css">CSS</b><span class="play">play</span></a></li>
+<li><a href="../banner_ads">Half Banner Ads at <b class="css">CSS</b><span class="play">play</span></a></li>
+</ul>
+
+<br /><br /></div> <!-- end of right column -->
+</div> <!-- end of content -->
+
+<div id="far_right">
+
+<h3>Sponsors</h3>
+<a href="http://www.menukit.com/index.htm"><img src="../ads/menukit.gif" alt="Menukit A Dreamweaver Extension for making different types of Menus" title="Menukit A Dreamweaver Extension for making different types of Menus" width="220" height="100" /></a><a href="http://www.genopal.com/banners/cssplay.htm"><img src="http://www.genopal.com/banners/cssplay.gif" alt="Genopal" title="Genopal" width="220" height="100" /></a><a href="http://www.dynamicdrive.com/style/"><img src="../ads/dynamicdrive.gif" alt="Free, practical CSS menus, layouts, and examples" title="Free, practical CSS menus, layouts, and examples" width="220" height="100" /></a><a href="http://www.medialab.com/sitegrinder?gad=CLamwvMGEgg8zVGyI1GRuxji78r-AyDa94US"><img src="../ads/sitegrinder.gif" alt="Sitegrinder" title="Sitegrinder - Photoshop plug-in converts designs to fully valid CSS websites" width="220" height="100" /></a><a href="http://www.psd2html.com/order-now.html/"><img src="../ads/psd2html_220.jpg" alt="You Design - We XHTML / CSS. PSD to HTML, PSD to XHTML Service." title="You Design - We XHTML / CSS. PSD to HTML, PSD to XHTML Service." width="220" height="100" /></a><br />
+
+
+</div>
+
+
+	<div id="foot">
+		<p>&copy; 2005/6/7 Stu Nicholls - All rights reserved</p>
+		<ul>
+		<li><a href="http://www.icra.org/sitelabel/">ICRA checked site</a></li>
+		<li><a href="http://validator.w3.org/check/referer" title="Valid XHTML 1.0 Strict!">xhtml 1.0 Strict</a></li>
+		<li><a href="http://jigsaw.w3.org/css-validator/validator?uri=http://www.cssplay.co.uk/menus/final_drop.html" title="Valid CSS!">css 1/2/3</a></li>
+		</ul>
+		</div>
+	</div> <!-- end of wrapper -->
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-451410-1";
+urchinTracker();
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+Return-path: <>
+Envelope-to: wwwlove@linux2.ultradedicated.com
+Delivery-date: Sun, 11 Sep 2011 03:38:57 +0100
+Received: from mailnull by linux2.ultradedicated.com with local (Exim 4.69)
+	id 1R2Zwc-0006Pm-SE
+	for wwwlove@linux2.ultradedicated.com; Sun, 11 Sep 2011 03:38:55 +0100
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@linux2.ultradedicated.com>
+To: wwwlove@linux2.ultradedicated.com
+Subject: Warning: message 1R1kLX-0001hC-NG delayed 48 hours
+Message-Id: <E1R2Zwc-0006Pm-SE@linux2.ultradedicated.com>
+Date: Sun, 11 Sep 2011 03:38:54 +0100
+
+This message was created automatically by mail delivery software.
+A message that you sent has not yet been delivered to one or more of its
+recipients after more than 48 hours on the queue on linux2.ultradedicated.com.
+
+The message identifier is:     1R1kLX-0001hC-NG
+The subject of the message is: Order Process
+The date of the message is:    Thu, 08 Sep 2011 20:33:11 +0100
+
+The address to which the message has not yet been delivered is:
+
+  ucheobu@hotamil.com
+
+No action is required on your part. Delivery attempts will continue for
+some time, and this warning may be repeated at intervals if the message
+remains undelivered. Eventually the mail delivery software will give up,
+and when that happens, the message will be returned to you.

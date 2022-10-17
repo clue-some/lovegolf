@@ -1,0 +1,294 @@
+Return-path: <>
+Envelope-to: info@lovegolf.co.uk
+Delivery-date: Thu, 24 Oct 2013 10:03:09 +0100
+Received: from mailnull by linux2.ultradedicated.com with local (Exim 4.80.1)
+	id 1VYu5B-0004ef-40
+	for info@lovegolf.co.uk; Wed, 23 Oct 2013 09:46:25 +0100
+X-Failed-Recipients: donnagabriel54@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@linux2.ultradedicated.com>
+To: info@lovegolf.co.uk
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1VYu5B-0004ef-40@linux2.ultradedicated.com>
+Date: Wed, 23 Oct 2013 09:46:25 +0100
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  donnagabriel54@gmail.com
+    SMTP error from remote mail server after end of data:
+    host gmail-smtp-in.l.google.com [2a00:1450:400c:c05::1a]:
+    550-5.7.1 [2a02:2498:1:71:230:48ff:fef8:fa3c      12] Our system has detected
+    550-5.7.1 that this message is likely unsolicited mail. To reduce the amount of
+    550-5.7.1 spam sent to Gmail, this message has been blocked. Please visit
+    550-5.7.1 http://support.google.com/mail/bin/answer.py?hl=en&answer=188131 for
+    550 5.7.1 more information. di1si8850989wjc.44 - gsmtp
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <info@lovegolf.co.uk>
+Received: from wwwlove by linux2.ultradedicated.com with local (Exim 4.80.1)
+	(envelope-from <info@lovegolf.co.uk>)
+	id 1VYu5A-0004eH-2a
+	for donnagabriel54@gmail.com; Wed, 23 Oct 2013 09:46:24 +0100
+To: donnagabriel54@gmail.com
+Subject: Thank you for contacting Love Golf
+From: info@lovegolf.co.uk  
+Reply-To: info@lovegolf.co.uk 
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="MIME_BOUNDRY_YLU"
+X-Sender: info@lovegolf.co.uk
+X-Mailer: PHP 5.3.18
+X-Priority: 3
+Message-Id: <E1VYu5A-0004eH-2a@linux2.ultradedicated.com>
+Date: Wed, 23 Oct 2013 09:46:24 +0100
+
+This is a multi-part message in MIME format.
+
+--MIME_BOUNDRY_YLU
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <title>Thank you for contacting Love Golf</title>
+   
+   <style type="text/css" media="screen">
+      body {
+         background-color: #eeeeee;
+      }
+      a img {
+         border: none;
+      }
+      table.bg1 {
+         background-color: #eeeeee;
+      }
+      table.bg2 {
+         background-color: #ffffff;
+      }
+      td.permission {
+         background-color: #eeeeee;
+         padding: 10px 20px 10px 20px;
+      }
+      td.permission p {
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0;
+         padding: 0;
+      }
+      td.permission p a {
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: normal;
+         color: #333333;
+      }
+      td.body {
+         padding: 0 20px 20px 20px;
+         background-color: #ffffff;
+      }
+      td.sidebar h3 {
+         font-family: Arial;
+         font-size: 15px;
+         font-weight: bold;
+         color: #333333;
+         margin: 0;
+         padding: 0;
+      }
+      td.sidebar ul {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #333333;
+         margin: 6px 0 14px 24px;
+         padding: 0;
+      }
+      td.sidebar ul li a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #525aa8;
+      }
+      td.sidebar h4 {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: bold;
+         color: #5c9630;
+         margin: 6px 0 0 0;
+         padding: 0;
+      }
+      td.sidebar h4 a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: bold;
+         color: #5c9630;
+         text-decoration: none;
+      }
+      td.sidebar p {
+         font-family: Arial;
+         font-size: 12px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0 0 10px 0;
+         padding: 0;
+      }
+      td.sidebar p a {
+         font-family: Arial;
+         font-size: 12px;
+         font-weight: normal;
+         color: #525aa8;
+         text-decoration: none;
+      }
+      td.buttons {
+        padding: 20px 0 0 0; 
+      }
+      td.mainbar h2 {
+         font-family: Arial;
+         font-size: 16px;
+         font-weight: bold;
+         color: #5c9630;
+         margin: 0 0 5px 0;
+         padding: 0;
+      }
+      td.mainbar h2 a {
+         font-family: Arial;
+         font-size: 16px;
+         font-weight: bold;
+         color: #5c9630;
+         text-decoration: none;
+         margin: 0;
+         padding: 0;
+      }
+      td.mainbar img.hr {
+         margin: 0;
+         padding: 0 0 10px 0;
+      }
+      td.mainbar p {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0 0 14px 0;
+         padding: 0;
+      }
+      td.mainbar p a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #525aa8;
+      }
+      td.mainbar p.more a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #525aa8;
+         text-decoration: none;
+      }
+      td.mainbar ul {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0 0 14px 24px;
+         padding: 0;
+      }
+      td.mainbar ul li a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #525aa8;
+      }
+      td.footer p {
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: normal;
+         color: #ffffff;
+         line-height: 16px;
+         margin: 0;
+         padding: 0;
+      }
+	  td.footer p a {
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: normal;
+         color: #ffffff;
+         line-height: 16px;
+         margin: 0;
+         padding: 0;
+      }
+   </style>
+   
+<META NAME="ROBOTS" CONTENT="NOINDEX,NOFOLLOW">
+</head>
+<body style="background-color:#eeeeee;" >
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="bg1" style="background-color:#eeeeee;" >
+   <tr>
+      <td align="center">
+
+         
+         <table width="600" border="0" cellspacing="0" cellpadding="0" class="bg2" style="background-color:#ffffff;" >
+            <tr>
+               <td class="header" align="left">
+                  <img src="http://www.lovegolf.co.uk/tracker/wl/lovegolf/images/email/header.gif" width="600" height="150" />
+               </td>
+            </tr>
+            <tr>
+               <td valign="top" class="body" style="padding-top:0;padding-bottom:20px;padding-right:20px;padding-left:20px;background-color:#ffffff;" >
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                     <tr>
+                        <td width="370" valign="top" class="mainbar" align="left">
+                           <h2 style="font-family:Arial;font-size:16px;font-weight:bold;color:#5c9630;margin-top:0;margin-bottom:5px;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >Hi Donna</h2>
+						   <h2 style="font-family:Arial;font-size:16px;font-weight:bold;color:#5c9630;margin-top:0;margin-bottom:5px;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >We have received your comments</h2>
+                           <img class="hr" src="http://www.lovegolf.co.uk/tracker/wl/lovegolf/images/email/hr.gif" alt="Header" width="340" height="3" style="margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:10px;padding-right:0;padding-left:0;" />
+                           
+                           <p style="font-family:Arial;font-size:13px;font-weight:normal;color:#333333;margin-top:0;margin-bottom:14px;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >Thanks for sending us your comments. They have been passed onto the General enquiry department.</p>
+						   
+						   <h2 style="font-family:Arial;font-size:16px;font-weight:bold;color:#5c9630;margin-top:0;margin-bottom:5px;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >Here's a copy of your message to us:</h2>
+                           <img class="hr" src="http://www.lovegolf.co.uk/tracker/wl/lovegolf/images/email/hr.gif" alt="Header" width="340" height="3" style="margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:10px;padding-right:0;padding-left:0;" />
+						   <p style="font-family:Arial;font-size:13px;font-weight:normal;color:#333333;margin-top:0;margin-bottom:14px;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >We can increase rankings of your website in search engines. Please reply back for more details.</p>
+						   
+						   <p style="font-family:Arial;font-size:13px;font-weight:normal;color:#333333;margin-top:0;margin-bottom:14px;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" ><br>Thank you for contacting Love Golf.</p>
+
+						   
+                        </td>
+                        
+                        <td width="20"></td>
+                        
+                        <td valign="top" width="170" class="sidebar" align="left">
+                           <!--<h3 style="font-family:Arial;font-size:15px;font-weight:bold;color:#333333;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >User details</h3>
+                           <h4 style="font-family:Arial;font-size:13px;font-weight:bold;color:#5c9630;margin-top:6px;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >Full name</h4>
+                           <p style="font-family:Arial;font-size:12px;font-weight:normal;color:#333333;margin-top:0;margin-bottom:10px;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >Donna Gabriel</p>
+                           
+                           <h4 style="font-family:Arial;font-size:13px;font-weight:bold;color:#5c9630;margin-top:6px;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >Browser</h4>
+
+                           <p style="font-family:Arial;font-size:12px;font-weight:normal;color:#333333;margin-top:0;margin-bottom:10px;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.19) Gecko/20110707 Firefox/3.6.19 GTB7.1 (.NET CLR 3.5.30729)</p>
+						   
+						   <h4 style="font-family:Arial;font-size:13px;font-weight:bold;color:#5c9630;margin-top:6px;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >IP address</h4>
+                           <p style="font-family:Arial;font-size:12px;font-weight:normal;color:#333333;margin-top:0;margin-bottom:10px;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >182.64.95.131</p>-->
+						   
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+
+            </tr>
+            <tr>
+               <td valign="middle" align="left" class="footer" height="61" style="padding-top:0;padding-bottom:0;padding-right:20px;padding-left:20px;background-image:url('http://www.lovegolf.co.uk/tracker/wl/lovegolf/images/email/footer-bg.gif');background-repeat:no-repeat;background-position:top center;background-color:#333333;height:61px;vertical-align:middle;" >
+                  <p style="font-family:Arial;font-size:11px;font-weight:normal;color:#ffffff;line-height:16px;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >Love Golf - Golf tracking & analysis, golf game improvement, online shop & golf club directory.</p>
+				  <p style="font-family:Arial;font-size:11px;font-weight:normal;color:#ffffff;line-height:16px;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" ><a href="http://www.lovegolf.co.uk/tracker" target="_blank" style="font-family:Arial;font-size:11px;font-weight:normal;color:#ffffff;line-height:16px;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >www.lovegolf.co.uk</a> | <a href="mailinfo@lovegolf.co.uk" style="font-family:Arial;font-size:11px;font-weight:normal;color:#ffffff;line-height:16px;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >info@lovegolf.co.uk</a></p>
+               </td>
+
+            </tr>
+         </table>
+         
+      </td>
+   </tr>
+</table>
+</body>
+</html>
+

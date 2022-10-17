@@ -1,0 +1,14 @@
+--- 
+filter: 
+  - 
+    actions: 
+      - 
+        action: deliver
+        dest: tonicbox@googlemail.com
+    filtername: Info Gmail
+    rules: 
+      - 
+        match: contains
+        opt: or
+        part: $message_headers
+        val: info@

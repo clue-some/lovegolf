@@ -1,0 +1,9 @@
+[08-Apr-2010 12:54:18] PHP Warning:  Smarty error: unable to read resource: "layout-header.tpl" in /usr/local/lib/php/Smarty-2.6.26/Smarty.class.php on line 1093
+[08-Apr-2010 12:54:18] PHP Warning:  Smarty error: unable to read resource: "layout-header.tpl" in /usr/local/lib/php/Smarty-2.6.26/Smarty.class.php on line 1093
+[08-Apr-2010 12:54:18] PHP Warning:  Smarty error: unable to read resource: "layout-footer.tpl" in /usr/local/lib/php/Smarty-2.6.26/Smarty.class.php on line 1093
+[08-Apr-2010 12:54:18] PHP Warning:  Smarty error: unable to read resource: "layout-footer.tpl" in /usr/local/lib/php/Smarty-2.6.26/Smarty.class.php on line 1093
+[21-Mar-2012 08:55:01 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/apc.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/apc.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[18-Feb-2013 12:55:03 UTC] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[18-Feb-2013 12:55:03 UTC] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[16-Mar-2013 13:10:01 UTC] PHP Warning:  Unknown: write failed: No space left on device (28) in Unknown on line 0
+[16-Mar-2013 13:10:01 UTC] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0

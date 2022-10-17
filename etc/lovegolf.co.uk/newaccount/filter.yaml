@@ -1,0 +1,14 @@
+--- 
+filter: 
+  - 
+    actions: 
+      - 
+        action: deliver
+        dest: tonicbox@googlemail.com
+    filtername: New Account Gmail
+    rules: 
+      - 
+        match: contains
+        opt: or
+        part: $message_headers
+        val: newaccount@

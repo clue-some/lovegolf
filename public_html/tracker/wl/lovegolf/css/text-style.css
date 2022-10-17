@@ -1,0 +1,1494 @@
+/* Online Golf Tracker text, tables, links, forms & image styles */
+/* default styles */
+p, h1, h2, h3, h4, h5 {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+p {
+	font-size: 0.8em;
+	color: #222;
+}
+h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #222;
+}
+h2 {
+	font-size: 1em;
+	font-weight: bold;
+	color: #222;
+}
+h3 {
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #222;
+}
+h4 {
+	font-size: 0.85em;
+	font-weight: bold;
+	color: #ab0707;
+}
+h5 {
+	font-size: 0.85em;
+	font-weight: bold;
+	color: #1b5c9d;
+}
+ul.termsList li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.75em;
+	padding: 0px 0px 10px 0px;
+	margin-left: 20px;
+	color: #222;
+}
+.mainAreaContent ol {
+	counter-reset: item;
+	font-size: 0.9em;
+}
+.mainAreaContent ol li {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #222;
+	font-size: 0.9em;
+	padding: 0px 0px 10px 0px;
+}
+/* ol li:before {
+	counter-increment: item;
+	content: counters(item, ".") " ";
+} */
+.mainAreaContent ol li li {
+	font-size: 1em;
+	padding: 5px 0px 5px 10px;
+}
+.mainAreaContentBlog ol {
+	list-style-type: disc;
+}
+.mainAreaContentBlog ol ol, .mainAreaContentBlog li li {
+	list-style-type: decimal;
+}
+/* custom styles */
+.helpItemArea ul {
+	margin: 5px 0px;
+}
+.helpItemArea li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.75em;
+	list-style-type: none;
+	background: url('/tracker/wl/lovegolf/images/im-bullet.png') no-repeat 0 11px;
+    padding: 6px 0px 4px 12px;
+	color: #222;
+}
+.bullet {
+	color: #7782ea;
+    background: url('/tracker/wl/lovegolf/images/im-bullet.gif') no-repeat 0 10px;
+    padding: 6px 0px 4px 16px;
+}
+h1 img {
+	float: left;
+	margin-right: 6px;
+}
+h1 span.clubName {
+	font-size: 0.6em;
+	color: #676666;
+}
+.mainArea h1, .trackingBody h1, .addRounder h1 {
+	margin-bottom: 8px;
+}
+.mainArea h2, .addRounder h2 {
+	margin-bottom: 10px;
+}
+.mainArea h2 span, .addRounder h2 span {
+	font-size: 0.7em;	
+}
+.mainArea p, .addRounder p {	
+	font-size: 0.8em;	
+}	
+.topBarContent p {
+	color: #898989;
+	font-size: 0.7em;
+}
+.menuAccountArea p {
+	color: #e8e7e7;
+	font-size: 0.7em;
+}
+.menuAccountArea span {
+	font-weight: bold;
+}
+.leftTitleBar h1, .loginTitleBar h1, .registerTitleBar h1 {
+	color: #fff;
+	font-size: 0.9em;
+	font-weight: bold;
+	margin-bottom: 0px;
+	text-shadow: 1px 1px 1px #333;
+}
+.leftBox p {
+	font-size: 0.75em;
+	color: #e3e9ec;
+}
+.leftBox span {
+	color: #919191;
+	font-size: 0.85em;
+}
+.leftBox span span {
+	color: #e3e9ec;
+	font-size: 1.2em;
+}
+.lefttBoxSub span {
+	color: #b4b4b4;
+	font-size: 0.85em;
+}
+.leftBoxSub span span {
+	color: #88c530;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.leftBoxSub span span span {
+	color: #9aa3f6;
+	font-weight: bold;
+	font-size: 1em;
+}
+.leftBoxProfileSub span span {
+	color: #9aa3f6;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.leftBoxProfileSub span {
+	color: #b4b4b4;
+	font-size: 0.85em;
+}
+.footerContent p {
+	color: #364f1a;
+	font-size: 0.7em;
+}
+.footerContent span {
+	color: #55801f;
+}
+.footerContent#ftrCredit p {
+	font-size: 0.7em;
+	color: #666;
+}
+.kfTextFloat p, .hpGcpArea p, .hpIntroArea p {
+
+	font-size: 0.8em;
+
+}
+.kfTextFloat span {
+	color: #6d6d6d;
+}
+.lbHandicapBox h1 {
+	color: #ecebeb;
+	font-weight: bold;
+	font-size: 2.5em;
+	text-align: center;
+	padding-top: 19px;
+}
+.trackingBoxTitle h1 {
+	color: #fff;	
+}
+.tabAreaContentOn h1 {
+	color: #000;
+	font-size: 0.95em;
+	font-weight: bold;	
+}
+.tabAreaContentOff h1 {
+	font-size: 0.8em;
+	font-weight: normal;
+}
+.tabAreaContentOff h1 span, .tabAreaContentOn h1 span {
+	font-size: 0.85em;
+	color: #cc0000;
+}
+.contentChris p, .contentChrisSmall p, .contentChart p {
+	color: #fff;	
+}
+.contentChris h1, .contentChart h1 {
+	color: #fff;
+	margin-bottom: 10px;	
+}
+.contentChrisSmall h1 {
+	color: #fff;
+	font-size: 1em;
+	margin-bottom: 5px;	
+}
+.courseFilterFloat h3 {
+	margin-bottom: 4px;	
+}
+.lbProfileImage span {
+	color: #b4b4b4;
+	font-size: 0.9em;
+}
+.trackingBodyContent h2, .mainHelpArea h2 {
+	padding-bottom: 4px;
+	display: inline;
+	line-height: 250%;
+	border-bottom: 1px dashed #fff;
+}
+#TB_window #TB_ajaxContent .helpItemArea h2 {
+	font-size: 1.4em;
+}
+.helpContentsFloat h3 {
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #fff;
+	background: #73af30;
+	padding: 4px;
+	display: block;
+	margin-bottom: 10px;
+}	
+.addScorecardDetails h3 {
+	margin-bottom: 5px;
+}
+.friendAreaTerms p {
+	font-size: 0.7em;
+	color: #b4b4b4;
+}
+.hpRSSArea p {
+	font-size: 0.7em;
+}
+.hpRSSArea h2 {
+	font-size: 0.9em;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+.hpRSSArea p.date {
+	font-size: 0.6em;
+	color: #7c7c7c;
+}
+.verifiedArea p {
+	font-size: 0.7em;
+}
+.clubOffersArea h1 {
+	font-size: 1em;
+	font-weight: normal;
+	color: #000;
+}
+.clubOffersArea p {
+	font-size: 0.6em;
+	color: #222;
+}
+.clubOffersContent h1 {
+	font-size: 1em;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 2px;
+}
+.clubOffersContent p {
+	font-size: 0.75em;
+	color: #fff;
+}
+.basketContent p {
+	color: #e3e9ec;
+	font-size: 0.75em;
+	margin-bottom: 3px;
+}
+.basketArea.hasItems .basketContent p {
+	color: #fff;
+}
+.strapTopLeft p, .strapTopRight p {
+	color: #919191;
+	font-size: 0.7em;
+}
+.strapTopRight#home p {
+	color: #919191;
+	font-size: 0.8em;
+	margin-top: 4px;
+}
+.hpTAIntro h1 {
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 2px;
+	padding-bottom: 8px;
+	background: url('/tracker/wl/lovegolf/images/im-hp-sub-title-arrow.gif') no-repeat bottom left;
+}
+.hpTAIntro p {
+	color: #88c540;
+}
+.hpTABoxTitle h1 {
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 0px;
+}
+.hpAdditionalContent p {
+	color: #eaeaea;	
+}
+.loginBoxArea h1, .registerBoxArea h1 {
+	font-size: 1.6em;
+	font-weight: normal;
+	color: #222;
+	margin-bottom: 8px;
+}
+.registerBoxArea h1 {
+	margin-bottom: 6px;
+}
+.loginBoxArea p {
+	font-size: 0.7em;
+	color: #676666;
+}
+.registerBoxArea p {
+	color: #676666;
+}
+.registerBoxArea#actForm2 p {
+	font-size: 0.7em;
+}
+.registerBoxArea#regForm2 p, .registerBoxArea#stdForm2 p {
+	font-size: 0.7em;
+	color: #676666;
+}
+.loginBoxArea p span, .registerBoxArea p span {
+	font-size: 1.1em;
+	color: #676666;
+}
+.tipsTitleBar h1 {
+	color: #fff;
+	margin-bottom: 0px;
+	font-size: 1em;
+	text-shadow: 1px 1px 1px #333;
+}
+.tipsContentArea h2 {
+	font-size: 0.9em;
+	margin-bottom: 3px;
+}
+.tipsContentArea p {
+	font-size: 0.7em;
+}
+span#handicapvalue {
+	font-size: 3.5em;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #676666;
+	text-align: center;
+}
+.activateHandicapText h1 {
+	font-size: 1.4em;
+	font-weight: normal;
+	color: #222;
+	margin-bottom: 3px;
+}
+.addRoundHolder h2 {
+	font-size: 0.9em;
+	margin-bottom: 5px;
+}
+.mainAreaContentVerified p {
+	font-size: 0.75em;
+}
+.macvFloatRight p {
+	color: #fff;
+}
+.mover h2 {
+	font-size: 0.9em;
+	margin-bottom: 3px;	
+}
+.myProfileStatsContent h1 {
+	font-size: 0.95em;
+	margin-bottom: 0px;
+}
+.myProfileStatsContent h2 {
+	color: #5d9730;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 0px;
+}
+.myProfileStatsContent p {
+	color: #545454;
+	font-weight: normal;
+	font-size: 0.8em;
+	margin-bottom: 8px;
+}
+.mpsHandicapBox h1 {
+	color: #ecebeb;
+	font-weight: bold;
+	font-size: 2.8em;
+	margin-bottom: 0px;
+}
+.mpsHandicapBox p {
+	color: #ecebeb;
+	font-size: 0.7em;
+}
+.myProfileTitleContent h5 {
+	color: #151515;
+	font-size: 0.9em;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+.myProfileTitleContent h5 span {
+	color: #151515;
+	font-size: 0.7em;
+}
+.sssHolder p {
+	font-weight: bold;
+	color: #fff;
+	font-size: 1em;
+	text-shadow: 1px 1px 1px #333;
+}
+.howFloatContent h1 {
+	font-size: 1.5em;
+	color: #6da830;	
+}
+.howFloatContent h2 {
+	font-size: 1.1em;
+	color: #525aa8;
+	margin-bottom: 0px;
+	margin-top: 2px;
+}
+.helpItemArea h1 {
+	font-size: 1.5em;
+	color: #6da830;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.helpItemArea h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.1em;
+	color: #525aa8;
+	margin-bottom: 5px;
+	font-weight: normal;
+}
+.helpItemArea h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+	color: #6da830;
+	margin-bottom: 3px;
+	font-weight: normal;
+}
+.howFloatContent p {
+	font-size: 0.7em;
+	font-weight: bold;
+	color: #525256;	
+}
+.carousel_content p {
+	text-align: center;
+}
+.ovSBContent p {
+	color: #fff;
+	font-weight: bold;	
+}
+.ovSBTitle p span {
+	font-size: 0.7em;
+}
+.ovSBAverage p {
+	font-size: 0.7em;
+	color: #858585;
+	font-weight: normal;
+}
+.ovSBContent h1 {
+	font-weight: bold;	
+	font-size: 1.2em;
+	margin-bottom: 0px;
+}
+.ovStatBox#fir .ovSBContent h1 {
+	color: #555dad;
+}
+.ovStatBox#gir .ovSBContent h1 {
+	color: #5e9830;
+}
+.ovStatBox#sand .ovSBContent h1 {
+	color: #9d801d;
+}
+.ovStatBox#upDown .ovSBContent h1 {
+	color: #ab2a2a;
+}
+.ovStatBox#putts .ovSBContent h1 {
+	color: #379183;
+}
+.ovStatBox#penalties .ovSBContent h1 {
+	color: #673261;
+}
+.qLinks p {
+	margin-bottom: 6px;
+}
+.aText p {
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #888;
+	margin-bottom: 10px;
+}
+.aText h2 {
+	margin-bottom: 5px;
+	color: #525aa8;
+}
+.newMainContent h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 2.9em;
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.newMainContent h2 {
+	font-size: 1.5em;
+	color: #222;
+	font-weight: normal;
+}
+.nmbaTextFloat h1 {
+	color: #fff;
+	font-size: 1em;
+	font-weight: bold;
+}
+.newMainPoints li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	font-weight: bold;
+	list-style-type: none;
+	background: url('/tracker/wl/lovegolf/images/im-hp-main-tick-bullet.png') no-repeat 25px 0px;
+	padding: 0px 0px 15px 80px;
+	color: #fff;
+}
+.newMainPoints p {
+	font-size: 1.1em;
+	color: #fff;
+}
+.newMainPoints li span {
+	font-size: 0.7em;
+	color: #b8b8b8;
+}
+.newMainQuote p {
+	color: #fff;
+	text-align: center;
+	font-size: 1em;
+	font-style: italic;
+	background: url('/tracker/wl/lovegolf/images/im-speech-marks02.gif') no-repeat bottom right;
+}
+.newMainQuote h2 {
+	color: #7883eb;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 5px;
+	font-style: italic;
+}
+.hpTABoxLink p {
+	font-size: 0.7em;
+	font-weight: bold;	
+}
+.pciArea p {
+	color: #919191;
+	font-size: 0.7em;
+	margin-bottom: 3px;
+}
+.pciArea img {
+	float: left;
+	padding-right: 10px;
+}
+.blogFeedsArea h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.3em;
+	font-weight: normal;
+}
+.blogFeedsArea h2 {
+	font-size: 0.9em;
+}
+/* form errors */
+p.error, p.recaptcha-error {
+	padding: 5px 5px 5px 28px;
+	background: #7db930 url('/tracker/wl/lovegolf/images/im-error-icon.png') no-repeat 2px 2px;
+	margin-bottom: 5px;
+} 
+p.error span, p.recaptcha-error, .macvFloatLeft p {
+	text-transform: uppercase;
+	color: #fff;
+}
+p.message {
+	padding: 5px 5px 5px 28px;
+	background: #7db930 url('/tracker/wl/lovegolf/images/im-success-icon.png') no-repeat 2px 2px;
+	margin-bottom: 5px;
+} 
+p.message span {
+	text-transform: uppercase;
+	color: #fff;
+}
+/* link styles */
+/* a:link, a:visited {
+	font-weight: normal;
+	color: #525aa8;
+	text-decoration: none;
+} */
+a:link, a:visited {
+	font-weight: bold;
+	color: #ec7a00;
+	text-decoration: none;
+}
+a:hover, a:active {
+	text-decoration: underline;
+}
+.basketContent p a:link, .basketContent p a:visited {
+	font-weight: normal;
+	color: #e3e9ec;
+	text-decoration: none;
+}
+.basketContent p a:hover, .basketContent p a:active {
+	color: #e3e9ec;
+	text-decoration: underline;
+}
+.basketArea.hasItems .basketContent p a:link, .basketArea.hasItems .basketContent p a:visited {
+	font-weight: normal;
+	color: #fff;
+	text-decoration: none;
+}
+.basketArea.hasItems .basketContent p a:hover, .basketArea.hasItems .basketContent p a:active {
+	text-decoration: underline;
+}
+.howFloatContent p a:link, .howFloatContent p a:visited {
+	font-weight: bold;
+	color: #ec7a00;
+	text-decoration: none;
+}
+.howFloatContent p a:hover, .howFloatContent p a:active {
+	color: #ec7a00;
+	text-decoration: underline;
+}
+.topBarContent p a:link, .topBarContent p a:visited {
+	font-weight: normal;
+	color: #898989;
+	text-decoration: none;
+}
+.topBarContent p a:hover, .topBarContent p a:active {
+	color: #e8e7e7;
+	text-decoration: underline;
+}
+.menuAccountArea p a:link, .menuAccountArea p a:visited {
+	font-weight: normal;
+	color: #e8e7e7;
+	text-decoration: none;
+}
+.menuAccountArea p a:hover, .menuAccountArea p a:active {
+	text-decoration: underline;
+}
+.leftBox p a:link, .leftBox p a:visited {
+	font-weight: normal;
+	color: #e3e9ec;
+	text-decoration: none;
+}
+.leftBox p a:hover, .leftBox p a:active {
+	text-decoration: underline;
+}
+.leftBox span a:link, .leftBox span a:visited {
+	font-weight: normal;
+	color: #919191;
+	text-decoration: none;
+}
+.leftBox span a:hover, .leftBox span a:active {
+	color: #e8e7e7;
+	text-decoration: underline;
+}
+.footerContent p a:link, .footerContent p a:visited {
+	font-weight: normal;
+	color: #364f1a;
+	text-decoration: none;
+}
+.footerContent p a:hover, .footerContent p a:active {
+	text-decoration: underline;
+}
+.footerContent span a:link, .footerContent span a:visited {
+	font-weight: normal;
+	color: #55801f;
+	text-decoration: none;
+}
+.footerContent span a:hover, .footerContent span a:active {
+	text-decoration: underline;
+}
+table.scorecard tr.scEntry td p a:link, table.scorecard tr.scEntry td p a:visited {
+	color: #2b6398;
+	text-decoration: none;
+}
+table.scorecard tr.scEntry td p a:hover, table.scorecard tr.scEntry td p a:active {
+	text-decoration: underline;
+}
+table.scorecard tr.scAlt td p a:link, table.scorecard tr.scAlt td p a:visited {
+	color: #2b6398;
+	text-decoration: none;
+}
+table.scorecard tr.scAlt td p a:hover, table.scorecard tr.scAlt td p a:active {
+	text-decoration: underline;
+}
+table.scorecard tr.scAlpha td p a:link, table.scorecard tr.scAlpha td p a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+table.scorecard tr.scAlpha td p a:hover, table.scorecard tr.scAlpha td p a:active {
+	text-decoration: underline;
+}
+.tabAreaContentOff h1 a:link, .tabAreaContentOff h1 a:visited {
+	color: #000;
+	text-decoration: none;
+	font-weight: normal;
+}
+.tabAreaContentOff h1 a:hover, .tabAreaContentOff h1 a:active {
+	text-decoration: underline;
+}
+.clubOffersRight p a:link, .clubOffersRight p a:visited {
+	color: #222;
+	text-decoration: none;
+	font-weight: normal;
+}
+.clubOffersRight p a:hover, .clubOffersRight p a:active {
+	color: #000;
+	text-decoration: underline;
+}
+.hpTAIntro p a:link, .hpTAIntro p a:visited {
+	color: #88c540;
+	text-decoration: none;
+	font-weight: normal;
+}
+.hpTAIntro p a:hover, .hpTAIntro p a:active {
+	text-decoration: underline;
+}
+.hpTABoxLink p a:link, .hpTABoxLink p a:visited {
+	color: #c02727;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.hpTABoxLink p a:hover, .hpTABoxLink p a:active {
+	text-decoration: underline;
+}
+.hpTAIntro h1 a:link, .hpTAIntro h1 a:visited {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+.hpTAIntro h1 a:hover, .hpTAIntro h1 a:active {
+	color: #88c540;
+}
+.leftBoxSub span span a:link, .leftBoxSub span span a:visited {
+	color: #88c530;
+	text-decoration: none;
+	font-weight: bold;
+}
+.leftBoxSub span span a:hover, .leftBoxSub span span a:active {
+	text-decoration: underline;
+}
+.tipsContentArea p a:link, .tipsContentArea p a:visited {
+	color: #5a9430;
+	text-decoration: none;
+	font-weight: bold;
+}
+.tipsContentArea p a:hover, .tipsContentArea p a:active {
+	text-decoration: underline;
+}
+.strapTopRight p a:link, .strapTopRight p a:visited, .strapTopLeft p a:link, .strapTopLeft p a:visited {
+	color: #919191;
+	text-decoration: underline;
+}
+.strapTopRight p a:hover, .strapTopRight p a:active, .strapTopLeft p a:hover, .strapTopLeft p a:active {
+	color: #88c530;
+	text-decoration: none;
+}
+.strapTopRight#home p a:link, .strapTopRight#home p a:visited {
+	color: #88c530;
+	text-decoration: underline;
+}
+.strapTopRight#home p a:hover, .strapTopRight#home p a:active {
+	color: #88c530;
+	text-decoration: none;
+}
+.carousel_content p a:link, .carousel_content p a:visited {
+	color: #222;
+	font-size: 1.3em;
+	text-decoration: none;
+	text-align: center;
+}
+.carousel_content p a:hover, .carousel_content p a:active {
+	color: #49a206;
+	text-decoration: underline;
+}
+.ovSBLink p a:link, .ovSBLink p a:visited, .macvFloatRight p a:link, .macvFloatRight p a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+.ovSBLink p a:hover, .ovSBLink p a:active, .macvFloatRight p a:hover, .macvFloatRight p a:active {
+	text-decoration: underline;
+}
+.firSLHolder p, .firSLHolder h1, .girSLHolder p, .girSLHolder h1, .sandSLHolder p, .sandSLHolder h1, .upDownSLHolder p, .upDownSLHolder h1 {
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+.firSLHolder#fl p, .firSLHolder#fl h1, .firSLHolder#fr p, .firSLHolder#fr h1, .girSLHolder#flt p, .girSLHolder#flt h1, .girSLHolder#fr p, .girSLHolder#fr h1, .sandSLHolder#attempt p, .sandSLHolder#attempt h1 {
+	color: #222;
+	text-shadow: none;
+}
+.firSLHolder p, .girSLHolder p, .sandSLHolder p, .upDownSLHolder p {
+	font-weight: bold;
+	font-size: 0.9em;
+	margin-bottom: 0px;
+}
+.firSLHolder h1, .girSLHolder h1, .sandSLHolder h1, .upDownSLHolder h1 {
+	margin-bottom: 0px;
+}
+/* form styles */
+form {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.leftBox input.field, .friendArea input.field, .regFormItem input.field {
+	margin-bottom: 7px;
+	width: 192px;
+	height: 18px;
+	border: none;
+	background: #fff;
+}
+.friendArea input.field, .regFormItem input.field {
+	width: 270px;	
+}
+.leftBox input.formCheck {
+	margin: 2px 0px 7px 0px;
+}
+.leftBox input.field {
+	margin-bottom: 10px;
+	padding: 1px 7px 3px 7px;
+	font-size: 1.1em;
+	color: #222;
+	width: 180px;
+	border: none;
+	background: url('/tracker/wl/lovegolf/images/im-form-field-small-bkg.png') no-repeat 0 0;
+}
+.loginBoxArea input.field, .registerBoxArea input.field {
+	margin-bottom: 10px;
+	padding: 6px 9px 5px 9px;
+	font-size: 1.7em;
+	color: #676666;
+	width: 370px;
+	border: none;
+	background: url('/tracker/wl/lovegolf/images/im-form-field-bkg.gif') no-repeat 0 0;
+}
+.registerBoxArea input.field {
+	font-size: 1.5em;
+}
+.editProfileHolder input.field{
+	margin-bottom: 10px;
+	margin-top: 3px;
+	padding: 5px 9px 6px 9px;
+	font-size: 1.5em;
+	color: #676666;
+	width: 352px;
+	border: none;
+	background: url('/tracker/wl/lovegolf/images/im-form-field-bkg-profile.gif') no-repeat 0 0;
+}
+.editProfileHolder select.dobfield{
+	margin-bottom: 10px;
+	margin-top: 3px;
+	margin-right:10px;
+	padding: 5px 9px 6px 9px;
+	font-size: 1.5em;
+	color: #676666;
+	width: 110px;
+	border: none;
+	background: url('/tracker/wl/lovegolf/images/im-form-field-bkg-profile.gif') no-repeat 0 0;
+}
+.courseDirectoryArea input.field {
+	margin-bottom: 10px;
+	padding: 6px 9px 9px 9px;
+	font-size: 1.3em;
+	color: #676666;
+	width: 370px;
+	border: none;
+	background: url('/tracker/wl/lovegolf/images/im-form-field-bkg.gif') no-repeat 0 0;
+}
+.loginBoxArea input.lostPasswordButton {
+	margin-top: 15px;
+}
+.registerBoxArea textarea, .addRoundHolder textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 10px;
+	padding: 6px 9px 5px 9px;
+	font-size: 1.3em;
+	color: #676666;
+	width: 370px;
+	height: 95px;
+	border: none;
+	background: url('/tracker/wl/lovegolf/images/im-form-field-text-bkg.gif') no-repeat 0 0;
+}
+.loginBoxArea select, .registerBoxArea select {
+	margin-bottom: 10px;
+	padding: 8px 9px 7px 9px;
+	font-size: 1.3em;
+	color: #676666;
+	width: 388px;
+	border: none;
+	background: url('/tracker/wl/lovegolf/images/im-form-field-bkg.gif') no-repeat 0 0;
+}
+.registerBoxArea input {
+	margin-top: 24px;
+}
+.registerBoxArea#regForm input {
+	margin-top: 0px;
+}
+.registerBoxArea#regForm input.fieldButton {
+	margin-top: 10px; 
+}
+.addRoundHolder select, .courseFilterFloat select, .addRoundCheckoutArea select {
+	margin-bottom: 10px;
+	font-size: 1em;
+	color: #676666;
+	width: 370px;
+	border: none;
+}
+.addRoundCheckoutArea select {
+	width: 60px;
+}
+/* .addRoundHolder select {
+	margin-bottom: 10px;
+	padding: 8px 9px 9px 9px;
+	font-size: 1em;
+	color: #676666;
+	width: 388px;
+	border: none;
+	background: url('/tracker/wl/lovegolf/images/im-form-field-bkg.gif') no-repeat 0 0;
+} */
+.addRoundHolder select option {
+	background: #fff;
+}
+.addRoundHolder input.field {
+	margin-bottom: 10px;
+	padding: 8px 9px 11px 9px;
+	font-size: 1.1em;
+	color: #676666;
+	width: 370px;
+	border: none;
+	background: url('/tracker/wl/lovegolf/images/im-form-field-bkg.gif') no-repeat 0 0;
+}
+.addRoundHolder input.fieldShort {
+	margin-bottom: 10px;
+	font-size: 1.1em;
+	color: #676666;
+	width: 335px;
+	border: none;
+}
+.loginBoxArea input.formCheck {
+	margin: 0px 0px 7px 0px;
+}
+.regFormItem input.field {
+	margin: 0;	
+}
+input.formButton {
+	margin-bottom: 7px;
+	width: 190px;
+	text-align: center;
+	color: #fff;
+	border: 1px solid #222;
+	background: #363636;
+}
+.addScorecardArea input.formButton {
+	margin-bottom: 7px;
+	width: 190px;
+	text-align: center;
+	color: #222;
+	border: 1px solid #222;
+	background: #dcdcdc;
+}
+.scEntryForm {
+	width: 35px;
+	margin: 1px 0px;
+}
+form.lgadmin fieldset {
+	padding:10px;
+	border:1px solid #f99;
+	margin-bottom:10px;
+}
+form.lgadmin fieldset input.submit {
+	width:200px;
+	margin-left:200px;
+}
+form.lgadmin fieldset label {
+	display: block;
+	width: 200px;
+	float: left;
+}
+form.lgadmin fieldset p {
+	padding: 10px 0;	
+}
+form.lgadmin input, form.lgadmin textarea, form.lgadmin select {
+	width: 400px;
+	padding: 2px;
+}
+form.lgadmin table.scorecard{
+	margin-top:10px;
+	width:606px;
+	table-layout:fixed;
+	}
+form.lgadmin table.scorecard p{
+	padding:0;
+	}	
+form.lgadmin table.scorecard input{
+	width:30px;
+	}
+.scDetails label {
+	font-weight: normal;
+	font-size: 0.75em;
+}
+/* image styles */
+img {
+	border: 0;
+}
+.imgFloatRight {
+	float: right;
+	margin: 0px 0px 15px 15px;	
+}
+.stbutton {
+	float: right;
+	margin-top: 15px;
+}
+.socialArea a.rl_twitter {
+	float: right;
+	display: block;
+	width: 89px;
+	height: 46px;
+	text-decoration: none;
+	background: url('/tracker/wl/lovegolf/images/but-twitter-ro.png');
+}
+.socialArea a.rl_twitter:hover {
+	background-position: 0 -46px;
+}
+.socialArea a.rl_facebook {
+	float: right;
+	display: block;
+	width: 102px;
+	height: 46px;
+	text-decoration: none;
+	background: url('/tracker/wl/lovegolf/images/but-facebook-ro.png');
+}
+.socialArea a.rl_facebook:hover {
+	background-position: 0 -46px;
+}
+.displace {
+	position: absolute;
+	left: -5000px;
+}
+.tipsContentArea img {
+	float: right;
+	margin: 0px 0px 5px 5px;
+}
+.margRight {
+	margin-right: 13px;
+}
+.imgBorder {
+	border: 1px dashed #222;
+}
+.lghImgMargin {
+	margin-bottom: 10px;
+}
+.blogImg {
+	border: 1px solid #718243;
+	padding: 3px;
+}
+/* menu style */
+#topmenu {
+	font-family: Arial, Helvetica, sans-serif;
+	overflow: hidden; /* wrap floats */
+	font-size: 0.8em;
+	font-weight: normal;
+	color: #707070;
+	height: 35px; /* trips haslayout, wrap floats IE */
+	list-style: none;
+	line-height: 25px;
+	margin-left: 0;
+}
+#topmenu li {
+	display: inline;
+	position: relative;
+}
+#topmenu a {
+    float: left;
+    position: relative;
+    padding: 7px 10px 5px 10px;
+	font-weight: normal;
+    margin-right: 0px; /* adjust space between tabs ... */ 
+    text-decoration: none;
+	color: #a1a1a1;
+	background: url('/tracker/wl/lovegolf/images/tab-nav-normal.gif') no-repeat 0 -35px;
+}
+#topmenu .current a {
+	padding: 4px 10px 6px 10px;
+	color: #e8e7e7;
+	background: url('/tracker/wl/lovegolf/images/tab-nav-normal.gif') no-repeat 0 0;
+}
+#topmenu .first a {
+	color: #a1a1a1;
+	background: url('/tracker/wl/lovegolf/images/tab-nav-first.gif') no-repeat 0 -35px;
+}
+#topmenu .first a:active,
+#topmenu .first a:focus,
+#topmenu .first a:hover,
+#topmenu .firstCurrent a {
+	padding: 4px 10px 6px 10px;
+	color: #e8e7e7;
+	background: url('/tracker/wl/lovegolf/images/tab-nav-first.gif') no-repeat 0 0;
+}
+#topmenu a:active,
+#topmenu a:focus,
+#topmenu a:hover {
+	padding: 4px 10px 6px 10px;
+	color: #e8e7e7;
+	background: url('/tracker/wl/lovegolf/images/tab-nav-normal.gif') no-repeat 0 0;
+}
+/* menu style v2 */
+#menu {
+	font-family: Arial, Helvetica, sans-serif;
+	float: left;
+	font-size: 0.8em;
+	height: 35px;
+	left: 0;
+	list-style: none;
+	padding: 0;
+	position: relative;
+	text-align: center;
+	z-index: 14;
+}
+#menu .track {
+	width: 150px;
+}
+#menu .clubs {
+	width: 110px;
+}
+#menu .shop {
+	width: 140px;
+}
+#menu .clubhouse {
+	width: 140px;
+}
+#menu .account {
+	width: 90px;
+}
+#menu .shop:hover div {
+	width: 978px;
+}
+#menu .one:hover, .two:hover {
+	position: relative;
+}
+#menu .pos1a {
+	left: 1px;
+	background: #eaeaea url('/tracker/wl/lovegolf/images/im-nav-drop-bkg.jpg') no-repeat bottom;
+	padding-bottom: 5px;
+}
+#menu :hover>a.norm {
+	background: url('/tracker/wl/lovegolf/images/tab-nav-normal.gif') no-repeat 0 0;
+	padding-top: 4px;
+}
+#menu :hover div {
+	display: block;
+	position: absolute;
+	margin-top: -3px;
+}
+#menu :hover div dd {
+	display: block;
+	margin: 0;
+	text-align: left;
+	width: 153px;
+	padding: 4px 5px;
+}
+#menu :hover div dd a {
+	color: #222;
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0;
+	text-decoration: none;
+	padding-top: 0px;
+}
+#menu :hover div dd a:hover {
+	text-decoration: underline;
+}
+#menu :hover div dl {
+	display: inline;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#menu :hover div dt {
+	background: #5a9430 url('/tracker/wl/lovegolf/images/im-nav-drop-title-bkg.gif') repeat-x;
+	color: #fff;
+	cursor: default;
+	display: block;
+	font-weight: bold;
+	margin: 0;
+	padding: 4px 5px;
+	text-align: left;
+	text-decoration: none;
+	width: 153px;
+	text-shadow: 1px 1px 1px #333;
+}
+#menu a.norm:hover {
+	background: url('/tracker/wl/lovegolf/images/tab-nav-normal.gif') no-repeat 0 0;
+	padding-top: 4px;
+	color: #e8e7e7;
+	
+}
+#menu a.first:hover {
+	padding-top: 4px;
+	color: #e8e7e7;
+	background: url('/tracker/wl/lovegolf/images/tab-nav-first.png') no-repeat 0 0;
+}
+#menu li a.selecta:hover {
+	padding-top: 4px;
+	color: #e8e7e7;
+	background: url('/tracker/wl/lovegolf/images/tab-nav-first.png') no-repeat 0 0;
+}
+#menu div {
+	display: none;
+}
+#menu li {
+	display: inline;
+	float: left;
+	text-align: center;
+}
+#menu li a {
+	color: #a1a1a1;
+	display: block;
+	font-size: 0.9em;
+	font-weight: normal;
+	text-decoration: none;
+	width: 100%;
+}
+#menu li a.norm {
+	background: url('/tracker/wl/lovegolf/images/tab-nav-normal.gif') no-repeat 0 -35px;
+	height: 35px;
+	padding-top: 7px;
+	line-height: 25px;
+}
+#menu li a.first {
+	color: #a1a1a1;
+	background: url('/tracker/wl/lovegolf/images/tab-nav-first.png') no-repeat 0 -35px;
+	height: 35px;
+	padding-top: 7px;
+	line-height: 25px; 
+}
+#menu li a.selecta {
+	padding-top: 4px;
+	color: #e8e7e7;
+	background: url('/tracker/wl/lovegolf/images/tab-nav-first.png') no-repeat 0 0;
+	height: 35px;
+	line-height: 25px;
+}
+#menu li a.select {
+	background: url('/tracker/wl/lovegolf/images/tab-nav-normal.gif') no-repeat 0 0;
+	padding-top: 4px;
+	height: 35px;
+	line-height: 25px;
+	color: #e8e7e7;
+}
+#menu li a:hover, #menu li:hover>a {
+	text-decoration: none;
+	color: #e8e7e7;
+}
+
+/* tracking centre menu style */
+#trackingMenu {
+	font-family: Arial, Helvetica, sans-serif;
+	overflow: hidden; /* wrap floats */
+	font-size: 0.8em;
+	font-weight: normal;
+	color: #a1a1a1;
+	height: 30px; /* trips haslayout, wrap floats IE */
+	list-style: none;
+	line-height: 25px;
+	margin-left: 0;
+}
+#trackingMenu li {
+	display: inline;
+}
+#trackingMenu a {
+    float: left;
+    position: relative;
+    padding: 5px 10px;
+	font-weight: normal;
+    margin-right: 0px; /* adjust space between tabs ... */ 
+    text-decoration: none;
+	color: #454545;
+	background: url('/tracker/wl/lovegolf/images/tab-tc-normal.gif') repeat-x 0 -30px;
+}
+#trackingMenu .current a {
+	padding: 3px 10px;
+	color: #fff;
+	background: url('/tracker/wl/lovegolf/images/tab-tc-normal.gif') repeat-x;
+}
+#trackingMenu .first a {
+	color: #454545;
+	background: url('/tracker/wl/lovegolf/images/tab-tc-first.gif') no-repeat 0 -30px;
+}
+#trackingMenu .firstCurrent a {
+	padding: 3px 10px;
+	color: #fff;
+	background: url('/tracker/wl/lovegolf/images/tab-tc-first.gif') no-repeat;
+}
+#trackingMenu a:active,
+#trackingMenu a:focus,
+#trackingMenu a:hover {
+	padding: 3px 10px;
+	color: #fff;
+	background-position: 0 0px;
+}
+/* category menu */
+#catMenu {
+	font-family: Arial, Helvetica, sans-serif;
+	overflow: hidden; /* wrap floats */
+	font-size: 0.8em;
+	font-weight: normal;
+	color: #707070;
+	list-style: none;
+}
+#catMenu li {
+	display: block;
+	padding: 7px 10px 7px 10px;
+	border-bottom: 1px dashed #303030;
+}
+#catMenu a {
+	font-weight: normal;
+    text-decoration: none;
+	color: #e3e9ec;
+}
+#catMenu .current a {
+	color: #88c530;
+}
+#catMenu a:active,
+#catMenu a:focus,
+#catMenu a:hover {
+	color: #88c530;
+}
+/* table styles */
+table.scorecard {
+	border-width: 0px;
+	border-spacing: ;
+	border-style: solid;
+	border-color: #C9C9C1;
+	border-collapse: collapse;
+	background-color: #FFFFFF;
+}
+table.scorecard td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #C9C9C1;
+	background-color: ;
+	-moz-border-radius: ;
+	white-space: nowrap;
+}
+table.scorecard tr.scTop td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #C9C9C1;
+	background-color: #515151;
+	-moz-border-radius: ;
+	white-space: nowrap;
+}
+table.scorecard tr.scTop td.tools {
+	background-color: #5a9430;	
+}
+table.scorecard tr.scDetails td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #C9C9C1;
+	background-color: #f1f1f1;
+	-moz-border-radius: ;
+	white-space: nowrap;
+}
+table.scorecard tr.scEntry td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #C9C9C1;
+	background-color: #f1f1f1;
+	-moz-border-radius: ;
+	white-space: nowrap;
+}
+table.scorecard tr.scAlt td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #C9C9C1;
+	background-color: #e2e2e2;
+	-moz-border-radius: ;
+	white-space: nowrap;
+}
+table.scorecard tr.scExtra td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #C9C9C1;
+	background-color: #5a9430;
+	-moz-border-radius: ;
+	white-space: nowrap;
+}
+table.scorecard tr.scAlpha td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #7883eb;
+	background-color: #525aa8;
+	-moz-border-radius: ;
+	white-space: nowrap;
+}
+table.scorecard tr.scTop td p {
+	color: #fff;
+	font-weight: bold;
+}
+table.scorecard tr.scDetails td p {
+	color: #000;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+table.scorecard tr.scDetails td p sub {
+	color: #878787;
+}
+table.scorecard tr.scEntry td p, table.shipping tr.scEntry td p {
+	color: #000;
+	font-weight: bold;
+}
+table.shipping tr.scEntry td p span {
+	color: #666;
+	font-size: 0.8em;
+	font-weight: normal;
+}
+table.scorecard tr.scAlt td p {
+	color: #000;
+	font-weight: bold;
+}
+table.scorecard tr.scExtra td p {
+	color: #fff;
+	font-weight: bold;
+}
+table.scorecard tr.scExtra td p a:link, table.scorecard tr.scExtra td p a:visited {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: underline;
+}
+table.scorecard tr.scExtra td p a:hover, table.scorecard tr.scExtra td p a:active {
+	color: #000;
+}
+table.scorecard tr.scTop td p span a:link, table.scorecard tr.scTop td p span a:visited {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: underline;
+}
+table.scorecard tr.scTop td p span a:hover, table.scorecard tr.scTop td p span a:active {
+	color: #7883eb;
+}
+table.scorecard tr.scAlpha td p {
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+table.shipping {
+	border-width: 0px;
+	border-spacing: ;
+	border-style: solid;
+	border-color: #C9C9C1;
+	border-collapse: collapse;
+	background-color: #FFFFFF;
+}
+table.shipping td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #C9C9C1;
+	background-color: ;
+	-moz-border-radius: ;
+}
+table.shipping tr.scEntry td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #C9C9C1;
+	background-color: #f1f1f1;
+	-moz-border-radius: ;
+}

@@ -1,0 +1,179 @@
+Return-path: <docs@comodo.com>
+Envelope-to: webmaster@lovegolf.co.uk
+Delivery-date: Mon, 11 Apr 2011 15:22:42 +0100
+Received: from mail1.comodogroup.com ([91.199.212.133] helo=mcmail1.mcr.colo.comodo.net)
+	by linux2.ultradedicated.com with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.69)
+	(envelope-from <docs@comodo.com>)
+	id 1Q9I0n-0008Vz-Ks
+	for webmaster@lovegolf.co.uk; Mon, 11 Apr 2011 15:22:41 +0100
+Received: (qmail 26661 invoked by uid 1008); 11 Apr 2011 14:22:37 -0000
+Received: from oracleone_mcr.mcr.colo.comodo.net (HELO 192.168.136.201) (192.168.128.21)
+    by mcmail1.mcr.colo.comodo.net (qpsmtpd/0.40) with SMTP; Mon, 11 Apr 2011 15:22:37 +0100
+Subject: ORDER #10287002 - Domain Control Validation for lovegolf.co.uk
+From: "Comodo Security Services" <docs@comodo.com>
+To: "webmaster@lovegolf.co.uk" <webmaster@lovegolf.co.uk>
+Date: Mon, 11 Apr 2011 14:22:08 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="(AlternativeBoundary)"
+Message-ID: <tWrf/goS4PCNb12ZHiKjBg@mcmail1.mcr.colo.comodo.net>
+X-Spam-Status: No, score=-1.2
+X-Spam-Score: -11
+X-Spam-Bar: -
+X-Ham-Report: Spam detection software, running on the system "linux2.ultradedicated.com", has
+	identified this incoming email as possible spam.  The original message
+	has been attached to this so you can view it (if it isn't spam) or label
+	similar future email.  If you have any questions, see
+	the administrator of that system for details.
+	Content preview:  Dear webmaster@lovegolf.co.uk, We have received a request
+	to issue an SSL certificate for lovegolf.co.uk. Please ignore this email if
+	neither you nor a trusted colleague made this request for a certificate.
+	[...] 
+	Content analysis details:   (-1.2 points, 5.0 required)
+	pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	-2.3 RCVD_IN_DNSWL_MED      RBL: Sender listed at http://www.dnswl.org/, medium
+	trust
+	[91.199.212.133 listed in list.dnswl.org]
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	0.0 DEAR_EMAIL             BODY: Message contains Dear email address
+	1.1 TRACKER_ID             BODY: Incorporates a tracking ID number
+	0.0 HTML_MESSAGE           BODY: HTML included in message
+	-0.1 AWL                    AWL: From: address is in the auto white-list
+X-Spam-Flag: NO
+
+--(AlternativeBoundary)
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Dear webmaster@lovegolf.co.uk,
+
+We have received a request to issue an SSL certificate for
+lovegolf.co.uk.
+
+Please ignore this email if neither you nor a trusted colleague made this
+request for a certificate.
+
+Otherwise, please browse to
+https://secure.comodo.net/products/EnterDCVCode?orderNumber=10287002
+and enter the following "validation code":
+
+        QpqjDi7GMTgBcuAcif0ruuH3nVQ6x0Nh
+
+
+Kind Regards,
+
+
+Comodo Security Services on behalf of uk2.net
+
+Support Telephone: +1.888.266.6361 / +1.703.581.6361
+Support Website: http://support.comodo.com
+Validation Docs Fax: US and Canada +1.866.831.5837 / Worldwide +1.801.303.9291
+We now operate a registration-based system for support.
+Please submit your ticket at the support website.
+Please do not reply to this email as this email address is not monitored.
+
+Comodo CA Limited - US Office
+525 Washington Blvd.
+Jersey City, NJ 07310-1600
+
+Comodo CA Limited - European Office
+26 Office Village
+Exchange Quay, Trafford Road
+Salford, Manchester M5 3EQ
+United Kingdom
+
+--(AlternativeBoundary)
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+<head>
+  <style type=text/css>
+  <!--
+    body { font-family: Arial, Helvetica, sans-serif; font-size: 10pt }
+    p { font-family: Arial, Helvetica, sans-serif; font-size: 10pt }
+    td { font-family: Arial, Helvetica, sans-serif; font-size: 10pt }
+    .p8 { font-family: Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: normal }
+    .p4 { font-family: Arial, Helvetica, sans-serif; font-size: 10pt; color: #006699; font-weight: bold }
+    A:link    { font-family: Arial; color: #000066; font-weight: bold; text-decoration: underline }
+    A:visited { font-family: Arial; color: #000066; font-weight: bold; text-decoration: underline }
+    A:active  { font-family: Arial; color: #000066; font-weight: bold; text-decoration: underline }
+    A:hover   { font-family: Arial; color: #003399; font-weight: bold; text-decoration: underline }
+    .title { font-family: Arial, Helvetica, sans-serif; font-size: 12pt; font-weight: bold; color: #003399 }
+    -->
+  </style>
+</head>
+<body bgcolor=#CCCCCC text=#000000 leftmargin=4 topmargin=5>
+<table width=780 border=0 cellspacing=0 cellpadding=1 align=left>
+  <tr><td align=left><img border="0" src="http://secure.comodo.net/images/banners/reseller/banner1000.gif"></td></tr>
+  <tr>
+    <td bgcolor=#000000>
+      <table width=780 border=0 cellspacing=0 cellpadding=3 align=left>
+        <tr>
+          <td bgcolor=#FFFFFF>
+            <br><font size=2 class=title>Domain Control Validation for lovegolf.co.uk</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor=#FFFFFF colspan=2>
+            <p><br>Dear webmaster@lovegolf.co.uk,</p>
+            <p>We have received a request to issue an SSL certificate for
+              <b>lovegolf.co.uk</b>.</p>
+            <p><font color=#CC0000>*** Please ignore this email if neither you nor
+              a trusted colleague made this request for a certificate ***</font></p>
+            <p>Otherwise, please browse
+              <a href="https://secure.comodo.net/products/EnterDCVCode?orderNumber=10287002">here</a>
+              and enter the following "validation code":</p>
+            <p align=center><b>QpqjDi7GMTgBcuAcif0ruuH3nVQ6x0Nh</b></p>
+<p><br>Kind Regards,</p>
+<p><br><b>Comodo Security Services</b> on behalf of <b>uk2.net</b></p>
+<p>
+  <b>Support Telephone:</b> +1.888.266.6361 / +1.703.581.6361<br>
+  <b>Support Website:</b>
+  <a href="http://support.comodo.com" target="_blank">http://support.comodo.com</a><br>
+  <b>Validation Docs Fax:</b> US and Canada +1.866.831.5837 / Worldwide +1.801.303.9291<br>
+<br>We now operate a registration-based system for support.
+<br>Please submit your ticket at the
+<a href="http://support.comodo.com">support website</a>.
+<br>Please <u>do not reply to this email</u> as this email address is not
+monitored.<br>
+<br><b>Comodo CA Limited - US Office</b><br>
+525 Washington Blvd.<br>
+Jersey City, NJ 07310-1600<br><br>
+<b>Comodo CA Limited - European Office</b><br>
+26 Office Village,<br>
+Exchange Quay, Trafford Road,<br>
+Salford, Manchester M5 3EQ,<br>
+United Kingdom<br>
+</p>
+<p>
+  <a href="http://www.comodo.com" target="_blank">Comodo</a>
+  offers essential infrastructure to enable e-merchants, and other
+  Internet-connected companies, software providers, and individual consumers to
+  interact and conduct business via the Internet safely and securely. Our
+  <a href="http://www.instantssl.com/ssl-certificate-products/ssl-certificate-epki.html"
+    >PKI</a> solutions, including
+  <a href="http://www.instantssl.com/ssl-certificate-products/ssl.html"
+    >SSL Certificates</a>,
+  <a href="http://www.instantssl.com/ssl-certificate-products/ssl/ssl-certificate-ev.html"
+    >EV SSL Certificates</a>,
+  <a href="http://www.instantssl.com/code-signing">Code Signing Certificates</a>
+  as well as
+  <a href="http://www.instantssl.com/ssl-certificate-products/free-email-certificate.html"
+    >Secure E-Mail Certificates</a>, increase consumer trust in transacting
+  business online, secure information through strong SSL encryption, and satisfy
+  many industry best practices or security compliance requirements.
+</p>
+
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+
+--(AlternativeBoundary)--
+

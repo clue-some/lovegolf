@@ -1,0 +1,23 @@
+/* styles for safari & chrome */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+html {
+	/*
+	need this so that Safari3 can 
+	use window.getMatchedCSSRules to collect CSSStyleRule later
+	*/
+	list-style-image: none; 
+}
+/* CSS styles appear below */
+.leftBox input.formButton, .courseFilterFloatButton input.formButton, .addScorecardDetails input.formButton {
+	padding: 2px 0px;
+}
+.loginBoxArea input.field, .registerBoxArea input.field {
+	padding: 6px 9px 7px 9px;
+}
+.editProfileHolder input.field {
+	padding: 5px 9px 8px 9px;
+}
+.courseDirectoryArea input.field {
+	padding: 6px 9px 11px 9px;
+}
+}

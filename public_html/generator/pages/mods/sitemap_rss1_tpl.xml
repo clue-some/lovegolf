@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/">
+<channel>
+<title>My Services</title>
+<link>%INIT_URL%</link>
+<description>My Services at %INIT_URL%</description>
+<items>
+<rdf:Seq>
+</rdf:Seq>
+</items>
+</channel>%URLS_LIST_FROM%
+<item>
+<title><TVAR TITLE></title> 
+<link><TVAR URL></link> 
+<description><TVAR DESC></description>
+</item>%URLS_LIST_TO%
+</rdf:RDF>

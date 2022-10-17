@@ -1,0 +1,26 @@
+body{
+	background:#fff !important;
+	margin:20px;
+	}
+
+h1,h2{
+	margin-bottom:0.3em;
+	}
+
+table{
+	width:100% !important;
+	margin:10px 0;
+	table-layout:fixed;
+	}
+	table td p, table th p{
+		font-size:10px;
+		}
+		
+.addScorecardDetails{
+	width:100%;
+	}
+		
+.courseInformation{
+	float:right;
+	text-align:right;
+	}

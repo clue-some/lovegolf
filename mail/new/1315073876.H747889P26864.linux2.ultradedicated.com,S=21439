@@ -1,0 +1,233 @@
+Return-path: <>
+Envelope-to: wwwlove@linux2.ultradedicated.com
+Delivery-date: Sat, 03 Sep 2011 19:17:56 +0100
+Received: from mailnull by linux2.ultradedicated.com with local (Exim 4.69)
+	id 1Qzumy-0006zA-5u
+	for wwwlove@linux2.ultradedicated.com; Sat, 03 Sep 2011 19:17:56 +0100
+X-Failed-Recipients: jvharford@att.net
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@linux2.ultradedicated.com>
+To: wwwlove@linux2.ultradedicated.com
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1Qzumy-0006zA-5u@linux2.ultradedicated.com>
+Date: Sat, 03 Sep 2011 19:17:56 +0100
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  jvharford@att.net
+    SMTP error from remote mail server after MAIL FROM:<wwwlove@linux2.ultradedicated.com> SIZE=21432:
+    host aln-mailrelay.att.net [12.102.252.75]: 521-109.123.89.6 blocked by sbc:blacklist.mailrelay.att.net.
+    521 DNSRBL: Blocked for abuse. See http://att.net/blocks
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <wwwlove@linux2.ultradedicated.com>
+Received: from wwwlove by linux2.ultradedicated.com with local (Exim 4.69)
+	(envelope-from <wwwlove@linux2.ultradedicated.com>)
+	id 1Qzumx-0006yv-27
+	for jvharford@att.net; Sat, 03 Sep 2011 19:17:55 +0100
+To: "Jamie Harford" <jvharford@att.net>
+Subject: Order Process
+From: "Love Golf" <shop@lovegolf.co.uk>
+MIME-Version: 1.0
+X-Mailer: osCommerce Mailer
+Content-Type: multipart/alternative;
+	boundary="=_7ccb191a2d4a95e5679d8b17ebb1eb6d"
+Message-Id: <E1Qzumx-0006yv-27@linux2.ultradedicated.com>
+Date: Sat, 03 Sep 2011 19:17:55 +0100
+
+--=_7ccb191a2d4a95e5679d8b17ebb1eb6d
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+      Welcome to Love Golf         body {         background-color: #eeeeee;      }      a img {         border: none;      }      table.bg1 {         background-color: #eeeeee;      }      table.bg2 {         background-color: #ffffff;      }      td.permission {         background-color: #eeeeee;         padding: 10px 20px 10px 20px;      }      td.permission p {         font-family: Arial;         font-size: 11px;         font-weight: normal;         color: #333333;         margin: 0;         padding: 0;      }      td.permission p a {         font-family: Arial;         font-size: 11px;         font-weight: normal;         color: #333333;      }      td.body {         padding: 0 20px 20px 20px;         background-color: #ffffff;      }      td.sidebar h3 {         font-family: Arial;         font-size: 15px;         font-weight: bold;         color: #333333;         margin: 0;         padding: 0;      }      td.sidebar ul {         font-family: Arial;         font-size: 13px;         font-weight: normal;         color: #333333;         margin: 6px 0 14px 24px;         padding: 0;      }      td.sidebar ul li a {         font-family: Arial;         font-size: 13px;         font-weight: normal;         color: #525aa8;      }      td.sidebar h4 {         font-family: Arial;         font-size: 13px;         font-weight: bold;         color: #5c9630;         margin: 6px 0 0 0;         padding: 0;      }      td.sidebar h4 a {         font-family: Arial;         font-size: 13px;         font-weight: bold;         color: #5c9630;         text-decoration: none;      }      td.sidebar p {         font-family: Arial;         font-size: 12px;         font-weight: normal;         color: #333333;         margin: 0 0 10px 0;         padding: 0;      }      td.sidebar p a {         font-family: Arial;         font-size: 12px;         font-weight: normal;         color: #525aa8;         text-decoration: none;      }      td.buttons {        padding: 20px 0 0 0;       }      td.mainbar h2 {         font-family: Arial;         font-size: 16px;         font-weight: bold;         color: #5c9630;         margin: 0 0 5px 0;         padding: 0;      }      td.mainbar h2 a {         font-family: Arial;         font-size: 16px;         font-weight: bold;         color: #5c9630;         text-decoration: none;         margin: 0;         padding: 0;      }      td.mainbar img.hr {         margin: 0;         padding: 0 0 10px 0;      }      td.mainbar p {         font-family: Arial;         font-size: 13px;         font-weight: normal;         color: #333333;         margin: 0 0 14px 0;         padding: 0;      }      td.mainbar p a {         font-family: Arial;         font-size: 13px;         font-weight: normal;         color: #525aa8;      }      td.mainbar p.more a {         font-family: Arial;         font-size: 13px;         font-weight: normal;         color: #525aa8;         text-decoration: none;      }      td.mainbar ul {         font-family: Arial;         font-size: 13px;         font-weight: normal;         color: #333333;         margin: 0 0 14px 24px;         padding: 0;      }      td.mainbar ul li a {         font-family: Arial;         font-size: 13px;         font-weight: normal;         color: #525aa8;      }      td.footer p {         font-family: Arial;         font-size: 11px;         font-weight: normal;         color: #ffffff;         line-height: 16px;         margin: 0;         padding: 0;      }	  td.footer p a {         font-family: Arial;         font-size: 11px;         font-weight: normal;         color: #ffffff;         line-height: 16px;         margin: 0;         padding: 0;      }                                                                                                                                                                                                                           Hi Jamie						   Thanks for your order!                                                                                 We're pleased to confirm the following order:                           						   1 x Nike Junior Morph Polo Shirt 2011 = £26.75 - Colours Black/Grey - Size Extra Large						   						    						   						   						   							   		Billing address:																Jamie Harford9789 woodland view laneCordovaTN38018United States								&nbsp;								Delivery address:																Jamie Harford9789 woodland view laneCordovaTN38018United States						   							   						   						   View a detailed invoice for this order                                                       Thank's again for shopping with Love Golf!Love Golf.						                                                                                                                                                      Your order details						                              Order number                           128609                                                      Order date													Saturday 03 September, 2011						   						   						Sub total                           £26.75						   						   						                           						   						   						Grand total                           £26.75						                                                                                                                                          Love Golf - Registered Office: The Oaks, Appleton Common, Appleton, Oxfordshire, OX13 5QN.				  www.lovegolf.co.uk | info@lovegolf.co.uk                                                      
+--=_7ccb191a2d4a95e5679d8b17ebb1eb6d
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>   <meta http-equiv=3D"Content-Type" content=3D"text/html; char=
+set=3Dutf-8">   <title>Welcome to Love Golf</title>   <style type=3D"text/c=
+ss" media=3D"screen">      body {         background-color: #eeeeee;      }=
+      a img {         border: none;      }      table.bg1 {         backgro=
+und-color: #eeeeee;      }      table.bg2 {         background-color: #ffff=
+ff;      }      td.permission {         background-color: #eeeeee;         =
+padding: 10px 20px 10px 20px;      }      td.permission p {         font-fa=
+mily: Arial;         font-size: 11px;         font-weight: normal;         =
+color: #333333;         margin: 0;         padding: 0;      }      td.permi=
+ssion p a {         font-family: Arial;         font-size: 11px;         fo=
+nt-weight: normal;         color: #333333;      }      td.body {         pa=
+dding: 0 20px 20px 20px;         background-color: #ffffff;      }      td.=
+sidebar h3 {         font-family: Arial;         font-size: 15px;         f=
+ont-weight: bold;         color: #333333;         margin: 0;         paddin=
+g: 0;      }      td.sidebar ul {         font-family: Arial;         font-=
+size: 13px;         font-weight: normal;         color: #333333;         ma=
+rgin: 6px 0 14px 24px;         padding: 0;      }      td.sidebar ul li a {=
+         font-family: Arial;         font-size: 13px;         font-weight: =
+normal;         color: #525aa8;      }      td.sidebar h4 {         font-fa=
+mily: Arial;         font-size: 13px;         font-weight: bold;         co=
+lor: #5c9630;         margin: 6px 0 0 0;         padding: 0;      }      td=
+.sidebar h4 a {         font-family: Arial;         font-size: 13px;       =
+  font-weight: bold;         color: #5c9630;         text-decoration: none;=
+      }      td.sidebar p {         font-family: Arial;         font-size: =
+12px;         font-weight: normal;         color: #333333;         margin: =
+0 0 10px 0;         padding: 0;      }      td.sidebar p a {         font-f=
+amily: Arial;         font-size: 12px;         font-weight: normal;        =
+ color: #525aa8;         text-decoration: none;      }      td.buttons {   =
+     padding: 20px 0 0 0;       }      td.mainbar h2 {         font-family:=
+ Arial;         font-size: 16px;         font-weight: bold;         color: =
+#5c9630;         margin: 0 0 5px 0;         padding: 0;      }      td.main=
+bar h2 a {         font-family: Arial;         font-size: 16px;         fon=
+t-weight: bold;         color: #5c9630;         text-decoration: none;     =
+    margin: 0;         padding: 0;      }      td.mainbar img.hr {         =
+margin: 0;         padding: 0 0 10px 0;      }      td.mainbar p {         =
+font-family: Arial;         font-size: 13px;         font-weight: normal;  =
+       color: #333333;         margin: 0 0 14px 0;         padding: 0;     =
+ }      td.mainbar p a {         font-family: Arial;         font-size: 13p=
+x;         font-weight: normal;         color: #525aa8;      }      td.main=
+bar p.more a {         font-family: Arial;         font-size: 13px;        =
+ font-weight: normal;         color: #525aa8;         text-decoration: none=
+;      }      td.mainbar ul {         font-family: Arial;         font-size=
+: 13px;         font-weight: normal;         color: #333333;         margin=
+: 0 0 14px 24px;         padding: 0;      }      td.mainbar ul li a {      =
+   font-family: Arial;         font-size: 13px;         font-weight: normal=
+;         color: #525aa8;      }      td.footer p {         font-family: Ar=
+ial;         font-size: 11px;         font-weight: normal;         color: #=
+ffffff;         line-height: 16px;         margin: 0;         padding: 0;  =
+    }	  td.footer p a {         font-family: Arial;         font-size: 11px=
+;         font-weight: normal;         color: #ffffff;         line-height:=
+ 16px;         margin: 0;         padding: 0;      }   </style><META NAME=
+=3D"ROBOTS" CONTENT=3D"NOINDEX,NOFOLLOW"></head><body style=3D"background-c=
+olor:#eeeeee;" ><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"bg1" style=3D"background-color:#eeeeee;" >   <tr>     =
+ <td align=3D"center">                  <table width=3D"600" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" class=3D"bg2" style=3D"background-color:=
+#ffffff;" >            <tr>               <td class=3D"header" align=3D"lef=
+t">                  <img src=3D"http://www.lovegolf.co.uk/tracker/wl/loveg=
+olf/images/email/header.gif" width=3D"600" height=3D"150" />               =
+</td>            </tr>            <tr>               <td valign=3D"top" cla=
+ss=3D"body" style=3D"padding-top:0;padding-bottom:20px;padding-right:20px;p=
+adding-left:20px;background-color:#ffffff;" >                  <table width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">                =
+     <tr>                        <td width=3D"370" valign=3D"top" class=3D"=
+mainbar" align=3D"left">                           <h2 style=3D"font-family=
+:Arial;font-size:16px;font-weight:bold;color:#5c9630;margin-top:0;margin-bo=
+ttom:5px;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;paddin=
+g-right:0;padding-left:0;" >Hi Jamie</h2>						   <h2 style=3D"font-family:=
+Arial;font-size:16px;font-weight:bold;color:#5c9630;margin-top:0;margin-bot=
+tom:5px;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding=
+-right:0;padding-left:0;" >Thanks for your order!</h2>                     =
+      <img class=3D"hr" src=3D"http://www.lovegolf.co.uk/tracker/wl/lovegol=
+f/images/email/hr.gif" alt=3D"Header" width=3D"340" height=3D"3" style=3D"m=
+argin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padd=
+ing-bottom:10px;padding-right:0;padding-left:0;" />                        =
+                              <p style=3D"font-family:Arial;font-size:13px;=
+font-weight:normal;color:#333333;margin-top:0;margin-bottom:14px;margin-rig=
+ht:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-l=
+eft:0;" >We're pleased to confirm the following order:<br></p>             =
+              						   <p style=3D"font-family:Arial;font-size:13px;font-we=
+ight:normal;color:#333333;margin-top:0;margin-bottom:14px;margin-right:0;ma=
+rgin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;"=
+ >1 x Nike Junior Morph Polo Shirt 2011 =3D =C2=A326.75<br /> - Colours Bla=
+ck/Grey<br /> - Size Extra Large<br /></p>						   						    <img class=3D"=
+hr" src=3D"http://www.lovegolf.co.uk/tracker/wl/lovegolf/images/email/hr.gi=
+f" alt=3D"Header" width=3D"340" height=3D"3" style=3D"margin-top:0;margin-b=
+ottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:10px;padd=
+ing-right:0;padding-left:0;" />						   						   <table width=3D"100%" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0">						   	<tr>						   		<td w=
+idth=3D"45%" valign=3D"top"><p style=3D"font-family:Arial;font-size:13px;fo=
+nt-weight:normal;color:#333333;margin-top:0;margin-bottom:14px;margin-right=
+:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-lef=
+t:0;" ><strong>Billing address:</strong></p>																<p style=3D"fon=
+t-family:Arial;font-size:13px;font-weight:normal;color:#333333;margin-top:0=
+;margin-bottom:14px;margin-right:0;margin-left:0;padding-top:0;padding-bott=
+om:0;padding-right:0;padding-left:0;" >Jamie Harford<br />9789 woodland vie=
+w lane<br />Cordova<br />TN<br />38018<br />United States<br /><br></p></td=
+>								<td width=3D"10%">&nbsp;</td>								<td width=3D"45%" valign=3D"t=
+op"><p style=3D"font-family:Arial;font-size:13px;font-weight:normal;color:#=
+333333;margin-top:0;margin-bottom:14px;margin-right:0;margin-left:0;padding=
+-top:0;padding-bottom:0;padding-right:0;padding-left:0;" ><strong>Delivery =
+address:</strong></p>																<p style=3D"font-family:Arial;font-siz=
+e:13px;font-weight:normal;color:#333333;margin-top:0;margin-bottom:14px;mar=
+gin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;pa=
+dding-left:0;" >Jamie Harford<br />9789 woodland view lane<br />Cordova<br =
+/>TN<br />38018<br />United States<br /><br></p></td>						   	</tr>						 =
+  </table>						   						   <p class=3D"more" style=3D"font-family:Arial;fo=
+nt-size:13px;font-weight:normal;color:#333333;margin-top:0;margin-bottom:14=
+px;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-righ=
+t:0;padding-left:0;" ><a href=3D"https://www.lovegolf.co.uk/my/" style=3D"f=
+ont-family:Arial;font-size:13px;font-weight:normal;color:#525aa8;text-decor=
+ation:none;" >View a detailed invoice for this order</a> <img src=3D"http:/=
+/www.lovegolf.co.uk/tracker/wl/lovegolf/images/email/read-more.gif" alt=3D"=
+Header" width=3D"8" height=3D"8" /></p>                                    =
+                  <p style=3D"font-family:Arial;font-size:13px;font-weight:=
+normal;color:#333333;margin-top:0;margin-bottom:14px;margin-right:0;margin-=
+left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >Tha=
+nk's again for shopping with Love Golf!<br><br>Love Golf.</p>						        =
+                   </td>                                                <td=
+ width=3D"20"></td>                                                <td vali=
+gn=3D"top" width=3D"170" class=3D"sidebar" align=3D"left">                 =
+          <h3 style=3D"font-family:Arial;font-size:15px;font-weight:bold;co=
+lor:#333333;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;paddi=
+ng-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >Your order deta=
+ils</h3>						                              <h4 style=3D"font-family:Arial;=
+font-size:13px;font-weight:bold;color:#5c9630;margin-top:6px;margin-bottom:=
+0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right=
+:0;padding-left:0;" >Order number</h4>                           <p style=
+=3D"font-family:Arial;font-size:12px;font-weight:normal;color:#333333;margi=
+n-top:0;margin-bottom:10px;margin-right:0;margin-left:0;padding-top:0;paddi=
+ng-bottom:0;padding-right:0;padding-left:0;" >128609</p>                   =
+                                   <h4 style=3D"font-family:Arial;font-size=
+:13px;font-weight:bold;color:#5c9630;margin-top:6px;margin-bottom:0;margin-=
+right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;paddin=
+g-left:0;" >Order date</h4>													<p style=3D"font-family:Arial;font-=
+size:12px;font-weight:normal;color:#333333;margin-top:0;margin-bottom:10px;=
+margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0=
+;padding-left:0;">Saturday 03 September, 2011</p>						   						   						<h=
+4 style=3D"font-family:Arial;font-size:13px;font-weight:bold;color:#5c9630;=
+margin-top:6px;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;p=
+adding-bottom:0;padding-right:0;padding-left:0;" >Sub total</h4>           =
+                <p style=3D"font-family:Arial;font-size:12px;font-weight:no=
+rmal;color:#333333;margin-top:0;margin-bottom:10px;margin-right:0;margin-le=
+ft:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >=C2=
+=A326.75</p>						   						   						<h4 style=3D"font-family:Arial;font-siz=
+e:13px;font-weight:bold;color:#5c9630;margin-top:6px;margin-bottom:0;margin=
+-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;paddi=
+ng-left:0;" ></h4>                           <p style=3D"font-family:Arial;=
+font-size:12px;font-weight:normal;color:#333333;margin-top:0;margin-bottom:=
+10px;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-ri=
+ght:0;padding-left:0;" ></p>						   						   						<h4 style=3D"font-famil=
+y:Arial;font-size:13px;font-weight:bold;color:#5c9630;margin-top:6px;margin=
+-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;paddi=
+ng-right:0;padding-left:0;" >Grand total</h4>                           <p =
+style=3D"font-family:Arial;font-size:12px;font-weight:normal;color:#333333;=
+margin-top:0;margin-bottom:10px;margin-right:0;margin-left:0;padding-top:0;=
+padding-bottom:0;padding-right:0;padding-left:0;" ><b>=C2=A326.75</b></p>		=
+				                           </td>                     </tr>             =
+     </table>               </td>            </tr>            <tr>         =
+      <td valign=3D"middle" align=3D"left" class=3D"footer" height=3D"61" s=
+tyle=3D"padding-top:0;padding-bottom:0;padding-right:20px;padding-left:20px=
+;background-image:url('http://www.lovegolf.co.uk/tracker/wl/lovegolf/images=
+/email/footer-bg.gif');background-repeat:no-repeat;background-position:top =
+center;background-color:#333333;height:61px;vertical-align:middle;" >      =
+            <p style=3D"font-family:Arial;font-size:11px;font-weight:normal=
+;color:#ffffff;line-height:16px;margin-top:0;margin-bottom:0;margin-right:0=
+;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:=
+0;" >Love Golf - Registered Office: The Oaks, Appleton Common, Appleton, Ox=
+fordshire, OX13 5QN.</p>				  <p style=3D"font-family:Arial;font-size:11px;=
+font-weight:normal;color:#ffffff;line-height:16px;margin-top:0;margin-botto=
+m:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-rig=
+ht:0;padding-left:0;" ><a href=3D"http://www.lovegolf.co.uk/tracker" target=
+=3D"_blank" style=3D"font-family:Arial;font-size:11px;font-weight:normal;co=
+lor:#ffffff;line-height:16px;margin-top:0;margin-bottom:0;margin-right:0;ma=
+rgin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;"=
+ >www.lovegolf.co.uk</a> | <a href=3D"mailto:info@lovegolf.co.uk" style=3D"=
+font-family:Arial;font-size:11px;font-weight:normal;color:#ffffff;line-heig=
+ht:16px;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-t=
+op:0;padding-bottom:0;padding-right:0;padding-left:0;" >info@lovegolf.co.uk=
+</a></p>               </td>            </tr>         </table>             =
+  </td>   </tr></table></body></html>
+--=_7ccb191a2d4a95e5679d8b17ebb1eb6d--
+
